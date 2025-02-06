@@ -5,7 +5,10 @@ export const NavlinkMenu = () => {
   return (
     <div>
       <nav>
-        <ul className="flex flex-row justify-center gap-10 mt-5 font-bold ">
+        <ul
+          className="flex flex-row justify-center gap-10 mt-5 font-bold hover:bg-[
+#f7c75e]"
+        >
           <li>
             <NavLink to="/">Home</NavLink>
           </li>
