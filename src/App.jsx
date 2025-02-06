@@ -22,13 +22,13 @@ function App() {
             <Projects path="/projects" />
           </Route>
           <Route>
-            <OurServices path="/services" />
+            <OurServices path="/ourservices" />
           </Route>
           <Route>
-            <About path="/about" />
+            <About exact path="/about" />
           </Route>
           <Route>
-            <ContactUs path="/contact" />
+            <ContactUs exact path="/contactus" />
           </Route>
         </Switch>
         <Footer />
