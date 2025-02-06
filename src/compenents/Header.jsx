@@ -6,7 +6,6 @@ import { TURKCE, languageTr } from "../api/dataTr.js";
 
 import Switch from "@mui/material/Switch";
 import logo from "../assets/header/logo.jpg";
-import { NavLink } from "react-router-dom";
 import { NavlinkMenu } from "./NavlinkMenu.jsx";
 
 const Header = () => {

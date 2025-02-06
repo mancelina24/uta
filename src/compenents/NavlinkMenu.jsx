@@ -1,13 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import { NavLink } from "react-router-dom";
 
 export const NavlinkMenu = () => {
-  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
-
-  // const toggleDropdown = () => {
-  //   setIsDropdownOpen(!isDropdownOpen);
-  // };
-
   return (
     <nav>
       <div className="max-w-screen-xl mx-auto flex justify-center items-center bold">

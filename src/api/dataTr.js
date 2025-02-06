@@ -1,3 +1,6 @@
+import { Facebook } from "lucide-react";
+import logo from "../assets/header/logo.jpg";
+
 export const TURKCE = "turkish";
 
 export const languageTr = {
@@ -8,7 +11,7 @@ export const toggleLanguageTr = {
   trDark: "KARANLIK MOD",
   trLight: "AYDINLIK MOD",
 };
-export const anaLinkler = [
+export const anaLinklerTr = [
   "Anasayfa",
   "Projeler",
   "Referanslar",
@@ -16,12 +19,12 @@ export const anaLinkler = [
   "İletişim",
 ];
 
-export const anasayfa = {
+export const anasayfaTr = {
   title: "Hoş Geldiniz",
   desc: "UTA GROUP COMPANIES olarak sizi ağırlamaktan mutluluk duyuyoruz. Uluslararası Ticaret Şirketi olarak her bir kıtada olan bağlantılarımız ve sunduğumuz hizmetlerle işletmenizi büyütmek ve kazançlarınızı arttırmak için buradayız.",
 };
 
-export const projectsEng = {
+export const projectsTr = {
   title1: "Hizmetlerimiz",
   title2: "Türkiyedeki lokal ofisiniz...",
   titledesc1: "Malzeme Tedariği",
@@ -39,10 +42,24 @@ export const projectsEng = {
     "Ayrıca bir çok farklı kalemde gemilere ve petrol platformlarına klaslı ekipman ve malzeme tedariki yapmaktayız.",
 };
 
-export const aboutEng = {
+export const aboutTr = {
   title: "About",
   desc1:
     "UTA GROUP COMPANIES, uluslararası ticarette uzmanlaşmış bir ekip tarafından 2011 senesinde kurulmuş ve sonrasında yapmış olduğu hizmetler ile Türkiye de ihracatta en iyi 1000 firma içinde yer alarak başarılar elde etmiştir. Müşterilerinin ihtiyaçları doğrultusunda en doğru ürünü en doğru fiyata en doğru yerden tedarik ederek talep edilen bölgeye nakliyesini gerçekleştirmektedir. Böylece hizmet verdiği firmaların üzerinden bir çok yükü alarak para ve zaman avantajı sağlamaktadır. Özellikle tedariği veya nakliyesi zor olan patlayıcı maddeler gibi ürünlerde olan tecrübesi ile fark yaratmaktadır. Amacımız, müşterilerimize en iyi hizmeti sunarak işletmelerinin uluslararası arenada başarılı olmalarına yardımcı olmaktır",
   desc2:
     "Deneyimli ve uzman kadromuzla, her müşteriye özel çözümler sunarak ticari faaliyetlerinizi destekliyoruz. Sektördeki değişimleri yakından takip ediyor ve işletmenize en uygun stratejileri belirliyoruz.",
+};
+
+export const addressTr = {
+  img: logo,
+  office: "TR Ofis",
+  address: "Aydintepe Mah. Guzin Sokak ",
+  city: "Tuzla / İstanbul / Türkiye",
+  pk: "Posta Kodu: 34947",
+  tel1: "(+90) 216 409 19 00",
+  tel2: "(+90) 540 409 19 00",
+  mail: "info@utagroup.com.tr",
+  linkedin: "https://www.linkedin.com/company/united-trade-agency",
+  facebook: "https://www.facebook.com/p/UTA-Group-100069544887153/",
+  instagram: "https://www.instagram.com/uta_group_companies/",
 };
