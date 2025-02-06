@@ -15,21 +15,11 @@ function App() {
       <PageContainer>
         <Header />
         <Switch>
-          <Route exact path="/">
-            <Home />
-          </Route>
-          <Route>
-            <Projects path="/projects" />
-          </Route>
-          <Route>
-            <OurServices path="/ourservices" />
-          </Route>
-          <Route>
-            <About exact path="/about" />
-          </Route>
-          <Route>
-            <ContactUs exact path="/contactus" />
-          </Route>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/ourservices" component={OurServices} />
+          <Route exact path="/projects" component={Projects} />
+          <Route exact path="/about" component={About} />
+          <Route exact path="/contact" component={ContactUs} />
         </Switch>
         <Footer />
       </PageContainer>
