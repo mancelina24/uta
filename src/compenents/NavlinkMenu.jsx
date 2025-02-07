@@ -5,24 +5,43 @@ export const NavlinkMenu = () => {
   return (
     <div>
       <nav>
-        <ul
-          className="flex flex-row justify-center gap-10 mt-5 font-bold hover:bg-[
-#f7c75e]"
-        >
+        <ul className="flex flex-row justify-center gap-10 mt-15 mr-20 font-bold ">
           <li>
-            <NavLink to="/">Home</NavLink>
+            <NavLink className="hover:bg-[#f7c75e] px-4 py-2 rounded-md" to="/">
+              Home
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/projects">Projects</NavLink>
+            <NavLink
+              className="hover:bg-[#f7c75e] px-4 py-2 rounded-md"
+              to="/projects"
+            >
+              Projects
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/ourservices">Our Services</NavLink>
+            <NavLink
+              className="hover:bg-[#f7c75e] px-4 py-2 rounded-md"
+              to="/ourservices"
+            >
+              Our Services
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/about">About</NavLink>
+            <NavLink
+              className="hover:bg-[#f7c75e] px-4 py-2 rounded-md"
+              to="/about"
+            >
+              About
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/contact">Contact</NavLink>
+            <NavLink
+              className="hover:bg-[#f7c75e] px-4 py-2 rounded-md"
+              to="/contact"
+            >
+              Contact
+            </NavLink>
           </li>
         </ul>
       </nav>

@@ -3,10 +3,12 @@ import HomeCarousel from "../compenents/HomeCarousel";
 
 const Home = () => {
   return (
-    <div>
-      <div>Home</div>
-      <div>
-        <HomeCarousel />
+    <div className="mt-20 flex flex-col ">
+      <div className="flex-grow">
+        <p>Home</p>
+        <div>
+          <HomeCarousel />
+        </div>
       </div>
     </div>
   );

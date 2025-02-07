@@ -19,10 +19,10 @@ const Header = () => {
       <div className="flex flex-col">
         <div>
           <div>
-            <img src={logo} className="h-20 w-50 m-2" alt="" />
+            <img src={logo} className="h-30 w-65 ml-5 mt-5" alt="" />
           </div>
           <div className="relative">
-            <div className=" absolute bottom-2 left-10 md:left-140 lg:bottom-0 lg:left-[880px]  flex bg-none border-none ">
+            <div className=" absolute flex bottom-15 left-280  bg-none border-none ">
               <div className="flex flex-row cursor-pointer pr-4 font-bold  ">
                 <Switch
                   {...label}
