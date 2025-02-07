@@ -4,12 +4,28 @@ import { UserContext } from "../contexts/UserContext";
 import { ourServicesEng } from "../api/dataEng";
 import { ourServicesTr, TURKCE } from "../api/dataTr";
 
+import Card from "react-bootstrap/Card";
+
 const OurServices = () => {
   const { language, darkMode } = useContext(UserContext);
+
+  const selectedProjects =
+    language === TURKCE
+      ? ourServicesEng.description
+      : ourServicesTr.description;
+
+  function CardColor(i) {
+    if (i % 2 === 0) {
+      return "bg-[#f7c75e] dark:bg-[#2D3235]";
+    } else {
+      return "bg-[#a2a2a2] dark:bg-[#495351]";
+    }
+  }
+
   return (
     <article>
       <div className="flex flex-col mt-10">
-        <div className="w-[80%] flex flex-col justify-center items-center mx-auto my-10">
+        <div className="w-[80%] flex flex-col justify-center items-center mx-auto my-7">
           <h2 className="text-center mb-5 font-bold">
             {" "}
             {language === TURKCE ? ourServicesEng.title1 : ourServicesTr.title1}
@@ -19,32 +35,41 @@ const OurServices = () => {
             {language === TURKCE ? ourServicesEng.title2 : ourServicesTr.title2}
           </p>
         </div>
-        <div>
-          <div className="flex flex-row w-[80%] justify-center items-center mx-auto my-10 gap-10">
-            <div>
-              <img
-                src={ourServicesTr.img1}
-                className="img-fluid rounded max-w-full h-auto"
-                alt=""
-              />
-            </div>
-            <div className="flex flex-col w-[70%] justify-center items-center mx-auto my-10">
-              <h2 className="mb-5 font-bold">
-                {" "}
-                {language === TURKCE
-                  ? ourServicesEng.titledesc1
-                  : ourServicesTr.titledesc1}
-              </h2>
-              <p>
-                {" "}
-                {language === TURKCE
-                  ? ourServicesEng.desc1
-                  : ourServicesTr.desc1}
-              </p>
-            </div>
-          </div>
-          <div></div>
-          <div></div>
+        <div className="w-full flex flex-col mt-10 mb-15 justify-center items-center">
+          <Card className="flex flex-col gap-10 h-auto w-full max-w-6xl  ">
+            {selectedProjects.map((desc, i) => (
+              <Card.Body
+                key={i}
+                className={`flex flex-row justify-center p-8  rounded-lg" ${CardColor(
+                  i
+                )}`}
+              >
+                <Card.Img
+                  variant="top"
+                  src={desc.img}
+                  className="w-45% h-80 object-cover mb-2 mr-6 rounded-2xl"
+                />
+                <div>
+                  <Card.Title
+                    className="text-3xl my-8 font-bold"
+                    style={{
+                      fontFamily: "Playfair Display",
+                    }}
+                  >
+                    {desc.titledesc}
+                  </Card.Title>
+                  <Card.Text
+                    className="my-8 "
+                    style={{ fontFamily: "Inter, sans-serif" }}
+                  >
+                    {desc.desc}
+                  </Card.Text>
+
+                  <div className="flex justify-between my-8 font-bold "> </div>
+                </div>
+              </Card.Body>
+            ))}
+          </Card>
         </div>
       </div>
     </article>

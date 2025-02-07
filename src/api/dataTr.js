@@ -7,6 +7,9 @@ import c3 from "../assets/projects/c3.png";
 import c4 from "../assets/projects/c4.png";
 import c5 from "../assets/projects/c5.png";
 import c6 from "../assets/projects/c6.png";
+import ser1 from "../assets/services/ser1.png";
+import ser2 from "../assets/services/ser2.png";
+import ser3 from "../assets/services/ser3.png";
 export const TURKCE = "turkish";
 
 export const languageTr = {
@@ -31,29 +34,63 @@ export const anasayfaTr = {
 };
 
 export const projectsTr = {
-  titledesc1: "Relizan - Cezayir Çikolata Fabrikası İnşaatı",
-  desc1:
-    "Kıtanın en büyük Çikolata fabrikası inşaatı anahtar teslim olacak şekilde iş alındı. Betonarme ana bina ve çelik konstrüksüyon fabrika alanı ile birlikte toplam 20.000m2 lik alanı kapsamaktadır.",
-  titledesc1: "Relizan - Cezayir Çikolata Fabrikası İnşaatı",
-  desc1:
-    "Kıtanın en büyük Çikolata fabrikası inşaatı anahtar teslim olacak şekilde iş alındı. Betonarme ana bina ve çelik konstrüksüyon fabrika alanı ile birlikte toplam 20.000m2 lik alanı kapsamaktadır.",
-  titledesc8: "Patlayıcı ve Askeri malzeme Tedariği",
+  title: "Projelerimiz",
+  description: [
+    {
+      titledesc: "Relizan - Cezayir Çikolata Fabrikası İnşaatı",
+      desc: "Kıtanın en büyük Çikolata fabrikası inşaatı anahtar teslim olacak şekilde iş alındı. Betonarme ana bina ve çelik konstrüksüyon fabrika alanı ile birlikte toplam 20.000m2 lik alanı kapsamaktadır.",
+      img: c1,
+    },
+    {
+      titledesc: "Aşkabat-Turkmenistan Tenis Kortu",
+      desc: "Aşkabat ta dizaynında bile 6 metrelik çelikten yapılma raketler ile katkıda bulunduğumuz tenis kortunun tüm malzemlerinin tedariği yapıldı. ( zemin EPDM, koltuklar, elektronik tabelalar, çelik konstruksüyonlar ve membran kaplaması, izelasyon kanalları, tüm aydınlatma sistemleri vb daha bir çok ürün tarafımızdan tedarik edildi)",
+      img: c2,
+    },
+    {
+      titledesc: "Aşkabat-Turkmenistan Soğuk hava depoları",
+      desc: "Aşkabatta bulunan 13 adet soğuk hava deposunun yenilenmesi işlemi yapıldı.",
+      img: c3,
+    },
+    {
+      titledesc: "Zamana Peynir Fabrikası - Aşkabat",
+      desc: "Aşkabat ta 36 çeşit farklı süt ürünü üretebilecek kapasite günlük 10.000 litre işleme kapasiteli fabrikanın tüm ekipmanlarının tedariği ve fabrikanın çalışır vaziyette teslimi.",
+      img: c4,
+    },
+    {
+      titledesc: "Köhnergenc Arıtam tesisi",
+      desc: "Köhnergenc te bulunan 50.000m3/gün gri su arıtma tesisi tüm ekipmanlarının tedariği ve kısmen montajı ile havuzun su izolasyon işlemini yapıldı",
+      img: c5,
+    },
+    {
+      titledesc: "Babarab Stadyumu - Aşkabat",
+      desc: "Aşkabat ta bulunan Babarab stadyumunun A'dan Z'ye tüm ekipman ve malzemesinin tedariki.",
+      img: c6,
+    },
+  ],
 };
 
 export const ourServicesTr = {
   title1: "Hizmetlerimiz",
   title2: "Türkiyedeki lokal ofisiniz...",
-  titledesc1: "Malzeme Tedariği",
-  desc1:
-    "Öncelikle Türkiye olmak üzere dünyanın bir çok ülkesinde olan bağlantılarımız sayesinde ihtiyacınız olan her türlü malzemenin tedarik ve üretimini yapmaktayız. Başta her türlü inşaat malzemesi, elektrik malzemeleri, endüstriyel ekipman ve malzemeler, tekstil, gıda, canlı hayvan, spor saha ekipmanları, gemiler için işaret fişekleri, askeri ekipman ve malzeme, portatif arıtma tesisleri, otel-kafe-restaurant ekipman ve malzemeleri olmak üzere bir çok farklı ürün ve sektörde tedarik yapmaktayız. Belirtmiş olduğumuz tüm sektör ve ürünler ile ilgili uluslar arası referanslarımız bulunmaktadır.",
+  description: [
+    {
+      titledesc: "Malzeme Tedariği",
+      desc: "Öncelikle Türkiye olmak üzere dünyanın bir çok ülkesinde olan bağlantılarımız sayesinde ihtiyacınız olan her türlü malzemenin tedarik ve üretimini yapmaktayız. Başta her türlü inşaat malzemesi, elektrik malzemeleri, endüstriyel ekipman ve malzemeler, tekstil, gıda, canlı hayvan, spor saha ekipmanları, gemiler için işaret fişekleri, askeri ekipman ve malzeme, portatif arıtma tesisleri, otel-kafe-restaurant ekipman ve malzemeleri olmak üzere bir çok farklı ürün ve sektörde tedarik yapmaktayız. Belirtmiş olduğumuz tüm sektör ve ürünler ile ilgili uluslar arası referanslarımız bulunmaktadır.",
+      img: ser1,
+    },
 
-  titledesc2: "Patlayıcı ve Askeri malzeme Tedariği",
-  desc2:
-    "Klas 1 sınıfına giren malzemelerin tedariki ve nakliyesi konusunda müşterilerimize hizmet vermekteyiz. Bu alanda dünyanın en büyük firmalarına ürün tedariki ve nakliye hizmeti sunduk bunlardan bazıları Petronas, Dragon Oil, Eni ve Türkmenistan Denizcilik Bakanlığı. Ayrıca askeri ekipman ve malzeme konusunda Türkiye ve diğer ülkelerdeki partnerlerimiz ile beraber müşterilerimizin her türlü talebini karşılamaktayız.",
+    {
+      titledesc: "Patlayıcı & Askeri Malzeme Tedariği",
+      desc: "Klas 1 sınıfına giren malzemelerin tedariki ve nakliyesi konusunda müşterilerimize hizmet vermekteyiz. Bu alanda dünyanın en büyük firmalarına ürün tedariki ve nakliye hizmeti sunduk bunlardan bazıları Petronas, Dragon Oil, Eni ve Türkmenistan Denizcilik Bakanlığı. Ayrıca askeri ekipman ve malzeme konusunda Türkiye ve diğer ülkelerdeki partnerlerimiz ile beraber müşterilerimizin her türlü talebini karşılamaktayız.",
+      img: ser2,
+    },
 
-  titledesc3: "Tekne ve Gemi Ekipmanları",
-  desc3:
-    "Altı jenerasyondur aile şirketimiz ile birlikte yürüttüğümüz tekne imalatımızda yenilikçi ve ekonomik çözümler sunmaktayız. Başta HDPE servis, pilot ve acente tekneleri olmak üzere ahşap yatlar ve yine alüminyum tekne imalatı yapmaktayız.Ayrıca bir çok farklı kalemde gemilere ve petrol platformlarına klaslı ekipman ve malzeme tedariki yapmaktayız.",
+    {
+      titledesc: "Tekne ve Gemi Ekipmanları",
+      desc: "Altı jenerasyondur aile şirketimiz ile birlikte yürüttüğümüz tekne imalatımızda yenilikçi ve ekonomik çözümler sunmaktayız. Başta HDPE servis, pilot ve acente tekneleri olmak üzere ahşap yatlar ve yine alüminyum tekne imalatı yapmaktayız.Ayrıca bir çok farklı kalemde gemilere ve petrol platformlarına klaslı ekipman ve malzeme tedariki yapmaktayız.",
+      img: ser3,
+    },
+  ],
 };
 
 export const aboutTr = {
@@ -72,7 +109,7 @@ export const aboutTr = {
 
 export const addressTr = {
   img: logo,
-  office: "TR Ofis",
+  office: "İletişim",
   address: "Aydintepe Mah. Guzin Sokak ",
   city: "Tuzla / İstanbul / Türkiye",
   pk: "Posta Kodu: 34947",

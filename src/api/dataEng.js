@@ -26,18 +26,60 @@ export const anasayfaEng = {
   desc: "We are pleased to host you as UTA GROUP COMPANIES. As an International Trade Company, we are here to grow your business and increase your profits with our connections on every continent and the services we offer.",
 };
 
+export const projectsEng = {
+  title: "Projects",
+  description: [
+    {
+      titledesc: "Relizan - Algeria Chocolate Factory Construction",
+      desc: "The construction of the continent's largest chocolate factory has been contracted as a turnkey project. It covers a total area of 20,000 m², including the reinforced concrete main building and the steel construction factory area.",
+      img: c1,
+    },
+    {
+      titledesc: "Ashgabat-Turkmenistan Tennis Court",
+      desc: "The supply of all materials for the tennis court, to which we contributed with 6-meter steel rackets even in its design, has been completed. (The flooring is EPDM, and we supplied many other products including seats, electronic scoreboards, steel constructions and membrane coverings, insulation channels, all lighting systems, etc.)",
+      img: c2,
+    },
+    {
+      titledesc: "Ashgabat-Turkmenistan Cold Storage Facilities",
+      desc: "The renovation of 13 cold storage facilities located in Ashgabat has been completed.",
+      img: c3,
+    },
+    {
+      titledesc: "Zamana Cheese Factory - Ashgabat",
+      desc: "The supply of all equipment for a factory in Ashgabat, which has the capacity to process 10,000 liters daily and produce 36 different dairy products, and the delivery of the factory in operational condition.",
+      img: c4,
+    },
+    {
+      titledesc: "Köhnergenc Purification Facility",
+      desc: "The supply of all equipment for the 50,000 m³/day gray water treatment facility located in Köhnergenc has been completed, along with partial installation and the water insulation process of the pool.",
+      img: c5,
+    },
+    {
+      titledesc: "Babarab Stadium - Ashgabat",
+      desc: "The supply of all equipment and materials for the Babarab Stadium located in Ashgabat from A to Z.",
+      img: c6,
+    },
+  ],
+};
+
 export const ourServicesEng = {
   title1: "Our Services",
   title2: "Your local office in Turkey...",
-  titledesc1: "Material Supply",
-  desc1:
-    "Thanks to our connections in many countries around the world, primarily in Turkey, we supply and produce all kinds of materials you need. We provide procurement in various products and sectors, including all types of construction materials, electrical materials, industrial equipment and supplies, textiles, food, live animals, sports field equipment, signaling flares for ships, military equipment and materials, portable purification plants, and hotel-cafe-restaurant equipment and supplies. We have international references for all the sectors and products mentioned.",
-  titledesc2: "Supply of Explosive and Military Materials",
-  desc2:
-    "We provide services to our customers regarding the supply and transportation of materials that fall under Class 1. In this area, we have supplied products and transportation services to some of the largest companies in the world, including Petronas, Dragon Oil, Eni, and the Ministry of Maritime Affairs of Turkmenistan. We also meet all the requests of our customers regarding military equipment and materials in collaboration with our partners in Turkey and other countries.",
-  titledesc3: "Boat and Ship Equipment",
-  desc3:
-    "For six generations, we have been providing innovative and economical solutions in our boat manufacturing, carried out together with our family company. We manufacture wooden yachts as well as aluminum boats, primarily focusing on HDPE service, pilot, and agency boats. We also supply certified equipment and materials for ships and oil platforms in many different categories.",
+  description: [
+    {
+      titledesc: "Material Supply",
+      desc: "Thanks to our connections in many countries around the world, primarily in Turkey, we supply and produce all kinds of materials you need. We provide procurement in various products and sectors, including all types of construction materials, electrical materials, industrial equipment and supplies, textiles, food, live animals, sports field equipment, signaling flares for ships, military equipment and materials, portable purification plants, and hotel-cafe-restaurant equipment and supplies. We have international references for all the sectors and products mentioned.",
+    },
+    {
+      titledesc: "Supply of Explosive & Military Materials",
+
+      desc: "We provide services to our customers regarding the supply and transportation of materials that fall under Class 1. In this area, we have supplied products and transportation services to some of the largest companies in the world, including Petronas, Dragon Oil, Eni, and the Ministry of Maritime Affairs of Turkmenistan. We also meet all the requests of our customers regarding military equipment and materials in collaboration with our partners in Turkey and other countries.",
+    },
+    {
+      titledesc: "Boat and Ship Equipment",
+      desc: "For six generations, we have been providing innovative and economical solutions in our boat manufacturing, carried out together with our family company. We manufacture wooden yachts as well as aluminum boats, primarily focusing on HDPE service, pilot, and agency boats. We also supply certified equipment and materials for ships and oil platforms in many different categories.",
+    },
+  ],
 };
 
 export const aboutEng = {
@@ -48,6 +90,7 @@ export const aboutEng = {
   desc2:
     "By finding the highest quality and most economical manufacturers in every country, primarily in construction and industrial materials, we quickly supply our customers with the right materials under the best conditions. With our experienced and specialized team, we support your commercial activities by providing tailored solutions for each client. We closely monitor changes in the industry and determine the most suitable strategies for your business.",
   img1: r1,
+
   title3: "Who are our customers?",
   desc3:
     "UTA Group Companies serves a few types of customers. The first customer group consists of medium-sized foreign construction companies that, due to the high costs associated with their projects, do not establish their own purchasing, logistics, and operations departments and have limited experience in export and import. We provide these companies with services similar to their purchasing, logistics, and operations departments, which is much more economical for them than building their own teams. These services include project measurement, translation, storage, loading, purchasing, transportation, certification procurement, and export. Our second customer group includes multinational corporations or corporate firms that experience problems in the procurement process due to existing procedures and restrictions in the countries where trade is conducted. Through our company, both secure trade and monitoring of every stage are ensured.",
