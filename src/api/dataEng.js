@@ -1,6 +1,15 @@
 import r1 from "../assets/about/r1.png";
 import r2 from "../assets/about/r2.png";
 import logo from "../assets/header/logo.jpg";
+import c1 from "../assets/projects/c1.png";
+import c2 from "../assets/projects/c2.png";
+import c3 from "../assets/projects/c3.png";
+import c4 from "../assets/projects/c4.png";
+import c5 from "../assets/projects/c5.png";
+import c6 from "../assets/projects/c6.png";
+import ser1 from "../assets/services/ser1.png";
+import ser2 from "../assets/services/ser2.png";
+import ser3 from "../assets/services/ser3.png";
 
 export const ENGLISH = "english";
 export const TURKCE = "turkish";
