@@ -9,19 +9,16 @@ import {
 } from "react-icons/fa";
 
 import logo from "../assets/header/logo.jpg";
-import { addressTr, TURKCE } from "../api/dataTr";
+import { addressTr, katalog, TURKCE } from "../api/dataTr";
 import { addressEng } from "../api/dataEng";
 
 const footer = () => {
   const { language } = useContext(UserContext);
   return (
-    <footer className="flex flex-col justify-center content-end item-center w-full mr-10 ml-5">
+    <footer className="flex flex-col justify-center content-end item-center w-full ">
       <div className="flex-grow">
         <div className="flex flex-row">
-          <div className="w-[35%]">
-            <img className="h-30 w-65 mt-10" src={logo} />
-          </div>
-          <div className=" flex flex-col w-[45%] ml-40">
+          <div className=" flex flex-col w-[45%] ml-10">
             <h4 className="font-bold">
               {language === TURKCE ? addressEng.office : addressTr.office}
             </h4>
@@ -42,6 +39,17 @@ const footer = () => {
               {addressTr.mail}
             </a>
           </div>
+          <div className="w-[35%]">
+            <a
+              href={katalog.Catalog}
+              download="UTA_Catalog.pdf"
+              className="text-blue-500 underline mt-5"
+            >
+              {language === TURKCE ? "UTA Catalog" : "UTA Katalog"}
+            </a>
+            <img className="h-10 w-auto mt-5" src={logo} />
+          </div>
+
           <div className=" flex flex-row w-[20%] gap-6 mt-15 mr-10">
             <a
               href={addressTr.facebook}

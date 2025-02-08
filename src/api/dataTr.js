@@ -10,11 +10,42 @@ import c6 from "../assets/projects/c6.png";
 import ser1 from "../assets/services/ser1.png";
 import ser2 from "../assets/services/ser2.png";
 import ser3 from "../assets/services/ser3.png";
+
+import g11 from "../assets/galeri/g11.png";
+import g12 from "../assets/galeri/g12.png";
+import g21 from "../assets/galeri/g21.png";
+import g22 from "../assets/galeri/g22.png";
+import g23 from "../assets/galeri/g23.png";
+import g31 from "../assets/galeri/g31.png";
+import g32 from "../assets/galeri/g32.png";
+import g33 from "../assets/galeri/g33.png";
+import g41 from "../assets/galeri/g41.png";
+import g42 from "../assets/galeri/g42.png";
+import g43 from "../assets/galeri/g43.png";
+
+import g51 from "../assets/galeri/g51.png";
+import g52 from "../assets/galeri/g52.png";
+import g53 from "../assets/galeri/g53.png";
+import g61 from "../assets/galeri/g61.png";
+import g62 from "../assets/galeri/g62.png";
+import g63 from "../assets/galeri/g63.png";
+import g71 from "../assets/galeri/g71.png";
+import g72 from "../assets/galeri/g72.png";
+import g73 from "../assets/galeri/g73.png";
+
+import g81 from "../assets/galeri/g81.png";
+import g82 from "../assets/galeri/g82.png";
+import g83 from "../assets/galeri/g83.png";
+import g91 from "../assets/galeri/g91.png";
+import UTA_Catalog from "../assets/UTA_Catalog.pdf";
 export const TURKCE = "turkish";
 
 export const languageTr = {
   eng: "ENGLISH",
   ekEng: "SWITCH TO ",
+};
+export const katalog = {
+  Catalog: UTA_Catalog,
 };
 export const toggleLanguageTr = {
   trDark: "KARANLIK MOD",
@@ -107,75 +138,68 @@ export const aboutTr = {
   img2: r2,
 };
 
-export const galery = {
+export const galeryTr = {
   title: "Galery",
   desc: [
     {
       id: 1,
-      title: "Relizan - Algeria Çikolata Fabrikası İnşaatı",
-      img1: g11,
-      img2: g12,
-    },
-    {
-      id: 2,
       title: "Ashgabat-Turkmenistan Tenis Kortu",
       img1: g21,
       img2: g22,
-      img4: g24,
+      img3: g23,
     },
     {
-      id: 3,
+      id: 2,
       title: "Ashgabat-Turkmenistan Soğuk Hava Depoları ",
       img1: g31,
       img2: g32,
-      img4: g33,
+      img3: g33,
     },
     {
-      id: 4,
+      id: 3,
       title: "Zamana Peynir-Süt Fabrikası - Ashgabat",
       img1: g41,
       img2: g42,
-      img4: g43,
+      img3: g43,
     },
     {
-      id: 5,
+      id: 4,
       title: "Köhnergenc Arıtma Tesisi",
       img1: g51,
       img2: g52,
-      img4: g53,
+      img3: g53,
     },
     {
-      id: 6,
+      id: 5,
       title: "Babarab Stadyum - Ashgabat",
       img1: g61,
       img2: g62,
-      img4: g63,
+      img3: g63,
     },
     {
-      id: 7,
+      id: 6,
       title: "Dashoguz Kültür Evi",
       img1: g71,
       img2: g72,
-      img4: g73,
-      img2: g74,
-      img4: g75,
+      img3: g73,
+    },
+    {
+      id: 7,
+      title: "Polietilen Bot",
+      img1: g81,
+      img2: g82,
+      img3: g83,
     },
     {
       id: 8,
-      title: "Ashgabat Stadyum İnşaatı",
-      img1: g81,
-      img2: g82,
-      img4: g83,
-    },
-    {
-      id: 9,
       title: "Ahal Kreş",
       img1: g91,
     },
     {
-      id: 10,
-      title: "Ahal Kreş",
-      img1: g101,
+      id: 9,
+      title: "Relizan - Algeria Çikolata Fabrikası İnşaatı",
+      img1: g11,
+      img2: g12,
     },
   ],
 };

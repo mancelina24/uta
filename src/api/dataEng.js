@@ -13,13 +13,33 @@ import ser3 from "../assets/services/ser3.png";
 
 import g11 from "../assets/galeri/g11.png";
 import g12 from "../assets/galeri/g12.png";
-import g21 from "../assets/galeri/g21.jpg";
-import g22 from "../assets/galeri/g22.jpg";
+import g21 from "../assets/galeri/g21.png";
+import g22 from "../assets/galeri/g22.png";
+import g23 from "../assets/galeri/g23.png";
+import g31 from "../assets/galeri/g31.png";
+import g32 from "../assets/galeri/g32.png";
+import g33 from "../assets/galeri/g33.png";
+import g41 from "../assets/galeri/g41.png";
+import g42 from "../assets/galeri/g42.png";
+import g43 from "../assets/galeri/g43.png";
 
-import g24 from "../assets/galeri/g24.jpg";
+import g51 from "../assets/galeri/g51.png";
+import g52 from "../assets/galeri/g52.png";
+import g53 from "../assets/galeri/g53.png";
+import g61 from "../assets/galeri/g61.png";
+import g62 from "../assets/galeri/g62.png";
+import g63 from "../assets/galeri/g63.png";
+import g71 from "../assets/galeri/g71.png";
+import g72 from "../assets/galeri/g72.png";
+import g73 from "../assets/galeri/g73.png";
+
+import g81 from "../assets/galeri/g81.png";
+import g82 from "../assets/galeri/g82.png";
+import g83 from "../assets/galeri/g83.png";
+import g91 from "../assets/galeri/g91.png";
 
 export const ENGLISH = "english";
-export const TURKCE = "turkish";
+
 export const languageEng = {
   tr: "TÜRKÇE",
   ekTr: "'YE GEÇ",
@@ -116,68 +136,68 @@ export const aboutEng = {
   img2: r2,
 };
 
-export const galery = {
+export const galeryEng = {
   title: "Galery",
   desc: [
     {
       id: 1,
-      title: "Relizan - Algeria Chocolate Factory Construction",
-      img1: g11,
-      img2: g12,
-    },
-    {
-      id: 2,
       title: "Ashgabat-Turkmenistan Tennis Court",
       img1: g21,
       img2: g22,
-      img4: g24,
+      img3: g23,
     },
     {
-      id: 3,
+      id: 2,
       title: "Ashgabat-Turkmenistan Cold Storage Facilities",
       img1: g31,
       img2: g32,
-      img4: g33,
+      img3: g33,
     },
     {
-      id: 4,
+      id: 3,
       title: "Zamana Cheese-Milk Factory - Ashgabat",
       img1: g41,
       img2: g42,
-      img4: g43,
+      img3: g43,
     },
     {
-      id: 5,
+      id: 4,
       title: "Köhnergenc Purification Facility",
       img1: g51,
       img2: g52,
-      img4: g53,
+      img3: g53,
     },
     {
-      id: 6,
+      id: 5,
       title: "Babarab Stadium - Ashgabat",
       img1: g61,
       img2: g62,
-      img4: g63,
+      img3: g63,
     },
     {
-      id: 7,
+      id: 6,
       title: "Dashoguz Cultural House",
       img1: g71,
       img2: g72,
-      img4: g73,
+      img3: g73,
+    },
+    {
+      id: 7,
+      title: "Polyethlene Boat",
+      img1: g81,
+      img2: g82,
+      img3: g83,
     },
     {
       id: 8,
-      title: "Ashgabat Stadium Construction",
-      img1: g81,
-      img2: g82,
-      img4: g83,
+      title: "Ahal Nursery",
+      img1: g91,
     },
     {
       id: 9,
-      title: "Ahal Nursery",
-      img1: g91,
+      title: "Relizan - Algeria Chocolate Factory Construction",
+      img1: g11,
+      img2: g12,
     },
   ],
 };
