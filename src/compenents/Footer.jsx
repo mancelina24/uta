@@ -8,7 +8,6 @@ import {
   FaMailBulk,
 } from "react-icons/fa";
 
-import logo from "../assets/header/logo.jpg";
 import { addressTr, grups, katalog, TURKCE } from "../api/dataTr";
 import { addressEng } from "../api/dataEng";
 
@@ -36,7 +35,7 @@ const footer = () => {
               ))}
             </figure>
           </div>
-          <div className=" flex flex-col w-[32%] ml-10">
+          <div className=" flex flex-col w-[32%] ml-40">
             <h4 className="text-xl font-bold">
               {language === TURKCE ? addressEng.office : addressTr.office}
             </h4>
@@ -58,7 +57,7 @@ const footer = () => {
             </a>
           </div>
 
-          <div className=" flex flex-row w-[30%] gap-6">
+          <div className=" flex flex-row w-[23%] gap-6">
             <a
               href={addressTr.facebook}
               target="_blank"
@@ -85,7 +84,7 @@ const footer = () => {
             </a>
           </div>
         </div>
-        <div className=" text-center text-xs font-bold m-5 mr-20 dark:text-[#f7c75e]">
+        <div className=" text-center text-xs font-bold  my-5 ml-10 dark:text-[#f7c75e]">
           <p>@2025 UTA Group Company - All Rights reserved</p>
         </div>
       </div>

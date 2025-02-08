@@ -1,9 +1,16 @@
-import React from "react";
+import React, { useContext } from "react";
+import { TURKCE } from "../api/dataTr";
+import { UserContext } from "../contexts/UserContext";
 
 const ContactUs = () => {
+  const { language } = useContext(UserContext);
+
   return (
     <div className="flex flex-col">
-      <h3 className="mt-5 mb-1 mr-5 font-bold ml-5">Bize Ulaşın</h3>
+      <h3 className="mt-5 mb-1 mr-5 font-bold ml-5">
+        {" "}
+        {language === TURKCE ? "Contact Us" : "Bize Ulaşın"}
+      </h3>
       <div className="flex-grow">
         {" "}
         <iframe

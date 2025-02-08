@@ -19,7 +19,7 @@ const Header = () => {
       <div className="flex flex-col">
         <div>
           <div>
-            <img src={logo} className="h-30 w-65 ml-5 mt-5" alt="" />
+            <img src={logo} className="w-45 h-auto ml-5 mt-5" alt="" />
           </div>
           <div className="relative">
             <div className=" absolute flex bottom-15 left-280  bg-none border-none ">
