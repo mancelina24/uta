@@ -11,6 +11,13 @@ import ser1 from "../assets/services/ser1.png";
 import ser2 from "../assets/services/ser2.png";
 import ser3 from "../assets/services/ser3.png";
 
+import g11 from "../assets/galeri/g11.png";
+import g12 from "../assets/galeri/g12.png";
+import g21 from "../assets/galeri/g21.jpg";
+import g22 from "../assets/galeri/g22.jpg";
+
+import g24 from "../assets/galeri/g24.jpg";
+
 export const ENGLISH = "english";
 export const TURKCE = "turkish";
 export const languageEng = {
@@ -78,15 +85,18 @@ export const ourServicesEng = {
     {
       titledesc: "Material Supply",
       desc: "Thanks to our connections in many countries around the world, primarily in Turkey, we supply and produce all kinds of materials you need. We provide procurement in various products and sectors, including all types of construction materials, electrical materials, industrial equipment and supplies, textiles, food, live animals, sports field equipment, signaling flares for ships, military equipment and materials, portable purification plants, and hotel-cafe-restaurant equipment and supplies. We have international references for all the sectors and products mentioned.",
+      img: ser1,
     },
     {
       titledesc: "Supply of Explosive & Military Materials",
 
       desc: "We provide services to our customers regarding the supply and transportation of materials that fall under Class 1. In this area, we have supplied products and transportation services to some of the largest companies in the world, including Petronas, Dragon Oil, Eni, and the Ministry of Maritime Affairs of Turkmenistan. We also meet all the requests of our customers regarding military equipment and materials in collaboration with our partners in Turkey and other countries.",
+      img: ser2,
     },
     {
       titledesc: "Boat and Ship Equipment",
       desc: "For six generations, we have been providing innovative and economical solutions in our boat manufacturing, carried out together with our family company. We manufacture wooden yachts as well as aluminum boats, primarily focusing on HDPE service, pilot, and agency boats. We also supply certified equipment and materials for ships and oil platforms in many different categories.",
+      img: ser3,
     },
   ],
 };
@@ -104,6 +114,72 @@ export const aboutEng = {
   desc3:
     "UTA Group Companies serves a few types of customers. The first customer group consists of medium-sized foreign construction companies that, due to the high costs associated with their projects, do not establish their own purchasing, logistics, and operations departments and have limited experience in export and import. We provide these companies with services similar to their purchasing, logistics, and operations departments, which is much more economical for them than building their own teams. These services include project measurement, translation, storage, loading, purchasing, transportation, certification procurement, and export. Our second customer group includes multinational corporations or corporate firms that experience problems in the procurement process due to existing procedures and restrictions in the countries where trade is conducted. Through our company, both secure trade and monitoring of every stage are ensured.",
   img2: r2,
+};
+
+export const galery = {
+  title: "Galery",
+  desc: [
+    {
+      id: 1,
+      title: "Relizan - Algeria Chocolate Factory Construction",
+      img1: g11,
+      img2: g12,
+    },
+    {
+      id: 2,
+      title: "Ashgabat-Turkmenistan Tennis Court",
+      img1: g21,
+      img2: g22,
+      img4: g24,
+    },
+    {
+      id: 3,
+      title: "Ashgabat-Turkmenistan Cold Storage Facilities",
+      img1: g31,
+      img2: g32,
+      img4: g33,
+    },
+    {
+      id: 4,
+      title: "Zamana Cheese-Milk Factory - Ashgabat",
+      img1: g41,
+      img2: g42,
+      img4: g43,
+    },
+    {
+      id: 5,
+      title: "Köhnergenc Purification Facility",
+      img1: g51,
+      img2: g52,
+      img4: g53,
+    },
+    {
+      id: 6,
+      title: "Babarab Stadium - Ashgabat",
+      img1: g61,
+      img2: g62,
+      img4: g63,
+    },
+    {
+      id: 7,
+      title: "Dashoguz Cultural House",
+      img1: g71,
+      img2: g72,
+      img4: g73,
+    },
+    {
+      id: 8,
+      title: "Ashgabat Stadium Construction",
+      img1: g81,
+      img2: g82,
+      img4: g83,
+    },
+    {
+      id: 9,
+      title: "Ahal Nursery",
+      img1: g91,
+    },
+  ],
 };
 
 export const addressEng = {

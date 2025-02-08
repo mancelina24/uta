@@ -1,9 +1,9 @@
 import React, { useContext } from "react";
 import { UserContext } from "../contexts/UserContext";
-
+import { Link } from "react-router-dom";
 import Card from "react-bootstrap/Card";
 
-import { ourServicesEng } from "../api/dataEng";
+import { projectsEng } from "../api/dataEng";
 import { projectsTr, TURKCE } from "../api/dataTr";
 
 const Projects = () => {
@@ -49,12 +49,9 @@ const Projects = () => {
                 </Card.Text>
 
                 <div className="flex justify-between my-8 font-bold">
-                  <Card.Link
-                    href="/"
-                    className="hover:bg-[#7a7a7a] hover:text-black"
-                  >
-                    View on Galeri
-                  </Card.Link>
+                  <Link to="/" className="hover:bg-[#7a7a7a] hover:text-black">
+                    View Galery
+                  </Link>
                 </div>
                 <div>
                   <Card.Img

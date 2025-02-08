@@ -30,6 +30,14 @@ export const NavlinkMenu = () => {
           <li>
             <NavLink
               className="hover:bg-[#f7c75e] px-4 py-2 rounded-md"
+              to="/galery"
+            >
+              Galery
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              className="hover:bg-[#f7c75e] px-4 py-2 rounded-md"
               to="/about"
             >
               About

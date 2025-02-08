@@ -107,6 +107,79 @@ export const aboutTr = {
   img2: r2,
 };
 
+export const galery = {
+  title: "Galery",
+  desc: [
+    {
+      id: 1,
+      title: "Relizan - Algeria Çikolata Fabrikası İnşaatı",
+      img1: g11,
+      img2: g12,
+    },
+    {
+      id: 2,
+      title: "Ashgabat-Turkmenistan Tenis Kortu",
+      img1: g21,
+      img2: g22,
+      img4: g24,
+    },
+    {
+      id: 3,
+      title: "Ashgabat-Turkmenistan Soğuk Hava Depoları ",
+      img1: g31,
+      img2: g32,
+      img4: g33,
+    },
+    {
+      id: 4,
+      title: "Zamana Peynir-Süt Fabrikası - Ashgabat",
+      img1: g41,
+      img2: g42,
+      img4: g43,
+    },
+    {
+      id: 5,
+      title: "Köhnergenc Arıtma Tesisi",
+      img1: g51,
+      img2: g52,
+      img4: g53,
+    },
+    {
+      id: 6,
+      title: "Babarab Stadyum - Ashgabat",
+      img1: g61,
+      img2: g62,
+      img4: g63,
+    },
+    {
+      id: 7,
+      title: "Dashoguz Kültür Evi",
+      img1: g71,
+      img2: g72,
+      img4: g73,
+      img2: g74,
+      img4: g75,
+    },
+    {
+      id: 8,
+      title: "Ashgabat Stadyum İnşaatı",
+      img1: g81,
+      img2: g82,
+      img4: g83,
+    },
+    {
+      id: 9,
+      title: "Ahal Kreş",
+      img1: g91,
+    },
+    {
+      id: 10,
+      title: "Ahal Kreş",
+      img1: g101,
+    },
+  ],
+};
+
 export const addressTr = {
   img: logo,
   office: "İletişim",
