@@ -38,6 +38,16 @@ import g82 from "../assets/galeri/g82.png";
 import g83 from "../assets/galeri/g83.png";
 import g91 from "../assets/galeri/g91.png";
 import UTA_Catalog from "../assets/UTA_Catalog.pdf";
+
+import makspor from "../assets/grup/makspor.png";
+import faras from "../assets/grup/faras.png";
+import stroy from "../assets/grup/stroy.png";
+import uta_energy from "../assets/grup/uta_energy.png";
+import uta_foregn_trade1 from "../assets/grup/uta_foregn_trade1.png";
+import uta_technologies1 from "../assets/grup/uta_technologies1.png";
+import uta_transport1 from "../assets/grup/uta_transport1.png";
+import uta_yapi1 from "../assets/grup/uta_yapi1.png";
+
 export const TURKCE = "turkish";
 
 export const languageTr = {
@@ -51,6 +61,9 @@ export const toggleLanguageTr = {
   trDark: "KARANLIK MOD",
   trLight: "AYDINLIK MOD",
 };
+
+export const carousel = [];
+
 export const anaLinklerTr = [
   "Anasayfa",
   "Projeler",
@@ -217,3 +230,14 @@ export const addressTr = {
   facebook: "https://www.facebook.com/p/UTA-Group-100069544887153/",
   instagram: "https://www.instagram.com/uta_group_companies/",
 };
+
+export const grups = [
+  faras,
+  stroy,
+  makspor,
+  uta_energy,
+  uta_foregn_trade1,
+  uta_technologies1,
+  uta_transport1,
+  uta_yapi1,
+];

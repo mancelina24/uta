@@ -9,7 +9,7 @@ import {
 } from "react-icons/fa";
 
 import logo from "../assets/header/logo.jpg";
-import { addressTr, katalog, TURKCE } from "../api/dataTr";
+import { addressTr, grups, katalog, TURKCE } from "../api/dataTr";
 import { addressEng } from "../api/dataEng";
 
 const footer = () => {
@@ -17,9 +17,27 @@ const footer = () => {
   return (
     <footer className="flex flex-col justify-center content-end item-center w-full ">
       <div className="flex-grow">
-        <div className="flex flex-row">
-          <div className=" flex flex-col w-[45%] ml-10">
-            <h4 className="font-bold">
+        <div className="flex flex-row gap-5">
+          <div className="w-[35%] flex flex-col justify-center items-center">
+            <div>
+              <a
+                href={katalog.Catalog}
+                download="UTA_Catalog.pdf"
+                className="text-black hover:text-[#f7c75e] underline text-2xl items-center font-bold"
+              >
+                {language === TURKCE ? "UTA Catalog" : "UTA Katalog"}
+              </a>
+            </div>
+            <figure className="grid grid-cols-3 gap-2 mt-3">
+              {grups.map((grup, i) => (
+                <div key={i} className="px-2 ">
+                  <img src={grup} className="w-30 h-auto" />
+                </div>
+              ))}
+            </figure>
+          </div>
+          <div className=" flex flex-col w-[32%] ml-10">
+            <h4 className="text-xl font-bold">
               {language === TURKCE ? addressEng.office : addressTr.office}
             </h4>
             <p>
@@ -39,18 +57,8 @@ const footer = () => {
               {addressTr.mail}
             </a>
           </div>
-          <div className="w-[35%]">
-            <a
-              href={katalog.Catalog}
-              download="UTA_Catalog.pdf"
-              className="text-blue-500 underline mt-5"
-            >
-              {language === TURKCE ? "UTA Catalog" : "UTA Katalog"}
-            </a>
-            <img className="h-10 w-auto mt-5" src={logo} />
-          </div>
 
-          <div className=" flex flex-row w-[20%] gap-6 mt-15 mr-10">
+          <div className=" flex flex-row w-[30%] gap-6">
             <a
               href={addressTr.facebook}
               target="_blank"

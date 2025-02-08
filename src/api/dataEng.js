@@ -203,7 +203,7 @@ export const galeryEng = {
 };
 
 export const addressEng = {
-  office: "TR Ofis",
+  office: "Contact",
   address: "Aydintepe Neighborhood Guzin Street",
   city: "Tuzla / İstanbul / Türkiye",
   pk: "Postal Code: 34947",
