@@ -8,11 +8,16 @@ const About = () => {
   return (
     <div className="flex flex-col mt-10">
       <div>
-        <div className="w-[80%] flex flex-col justify-center items-center mx-auto my-10">
-          <h2 className="text-center mb-5 font-bold">
-            {" "}
-            {language === TURKCE ? aboutEng.title1 : aboutTr.title1}
-          </h2>
+        <p
+          className=" text-3xl my-5 md:text-5xl leading-[58.09px] tracking-[1%]  font-medium text-center "
+          style={{ fontFamily: "Inter, sans-serif" }}
+        >
+          {" "}
+          {language === TURKCE ? "About" : "Hakkımızda"}
+        </p>
+      </div>
+      <div>
+        <div className="w-[80%] flex flex-col justify-center items-center mx-auto my-8">
           <p className="text-center">
             {" "}
             {language === TURKCE ? aboutEng.desc1 : aboutTr.desc1}

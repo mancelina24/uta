@@ -64,7 +64,7 @@ const Projects = () => {
                       to="/galery"
                       className="hover:bg-[#7a7a7a] hover:text-black"
                     >
-                      View Galery
+                      View on Galery
                     </Link>
                   </div>
                   <div>

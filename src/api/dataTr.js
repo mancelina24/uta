@@ -47,6 +47,12 @@ import uta_foregn_trade1 from "../assets/grup/uta_foregn_trade1.png";
 import uta_technologies1 from "../assets/grup/uta_technologies1.png";
 import uta_transport1 from "../assets/grup/uta_transport1.png";
 import uta_yapi1 from "../assets/grup/uta_yapi1.png";
+import uta from "../assets/grup/uta.png";
+
+import sly1 from "../assets/slayt/sly1.png";
+import sly2 from "../assets/slayt/sly1.png";
+import sly3 from "../assets/slayt/sly1.png";
+import sly4 from "../assets/slayt/sly1.png";
 
 export const TURKCE = "turkish";
 
@@ -62,7 +68,7 @@ export const toggleLanguageTr = {
   trLight: "AYDINLIK MOD",
 };
 
-export const carousel = [];
+export const carousel = [sly1, sly2, sly3, sly4];
 
 export const anaLinklerTr = [
   "Anasayfa",
@@ -240,4 +246,5 @@ export const grups = [
   uta_technologies1,
   uta_transport1,
   uta_yapi1,
+  uta,
 ];

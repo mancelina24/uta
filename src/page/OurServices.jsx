@@ -25,12 +25,17 @@ const OurServices = () => {
   return (
     <article>
       <div className="flex flex-col mt-10">
-        <div className="w-[80%] flex flex-col justify-center items-center mx-auto my-7">
-          <h2 className="text-center mb-5 font-bold">
+        <div>
+          <p
+            className=" text-3xl my-5 md:text-5xl leading-[58.09px] tracking-[1%]  font-medium text-center "
+            style={{ fontFamily: "Inter, sans-serif" }}
+          >
             {" "}
-            {language === TURKCE ? ourServicesEng.title1 : ourServicesTr.title1}
-          </h2>
-          <p className="text-center">
+            {language === TURKCE ? "Our Services" : "Hizmetlerimiz"}
+          </p>
+        </div>
+        <div className="w-[80%] flex flex-col justify-center items-center mx-auto my-5">
+          <p className="text-center font-bold">
             {" "}
             {language === TURKCE ? ourServicesEng.title2 : ourServicesTr.title2}
           </p>

@@ -12,7 +12,7 @@ import { addressTr, grups, katalog, TURKCE } from "../api/dataTr";
 import { addressEng } from "../api/dataEng";
 
 const footer = () => {
-  const { language } = useContext(UserContext);
+  const { language, darkMode } = useContext(UserContext);
   return (
     <footer className="flex flex-col justify-center content-end item-center w-full ">
       <div className="flex-grow">
@@ -22,12 +22,12 @@ const footer = () => {
               <a
                 href={katalog.Catalog}
                 download="UTA_Catalog.pdf"
-                className="text-black hover:text-[#f7c75e] underline text-2xl items-center font-bold"
+                className="text-black dark:text-[#f7c75e]  hover:text-[#f7c75e] underline text-2xl items-center font-bold"
               >
                 {language === TURKCE ? "UTA Catalog" : "UTA Katalog"}
               </a>
             </div>
-            <figure className="grid grid-cols-3 gap-2 mt-3">
+            <figure className="grid grid-cols-3 gap-2 mt-8">
               {grups.map((grup, i) => (
                 <div key={i} className="px-2 ">
                   <img src={grup} className="w-30 h-auto" />
