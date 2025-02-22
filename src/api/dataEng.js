@@ -123,11 +123,31 @@ export const ourServicesEng = {
 
 export const aboutEng = {
   title1: "About",
+  title11: "Who are we?",
   desc1:
-    "UTA GROUP COMPANIES was established in 2011 by a team specialized in international trade and has since achieved success by ranking among the top 1000 exporting companies in Turkey. We supply the most suitable products at the best prices from the right sources according to our clients' needs and ensure their transportation to the requested regions. This way, we alleviate many burdens from the companies we serve, providing them with advantages in terms of money and time. We particularly stand out with our experience in handling products that are difficult to source or transport, such as explosive materials. Our goal is to provide the best service to our clients, helping their businesses succeed on the international stage.Deneyimli ve uzman kadromuzla, her müşteriye özel çözümler sunarak ticari faaliyetlerinizi destekliyoruz. Sektördeki değişimleri yakından takip ediyor ve işletmenize en uygun stratejileri belirliyoruz.",
-  title2: "what do we do?",
+    "UTA GROUP was founded in 2011 by experienced team members, led by Long Distance Captain Fazlı TÜRKAY and his partners, who have mastered the dynamics of international trade. The entire company has since been taken over by Long Distance Captain Fazlı TÜRKAY. Rapidly advancing on its journey to success, UTA GROUP has ranked among the top 1000 export companies in Turkey, achieving significant successes in every area of trade, and continues to maintain this momentum without slowing down.",
+  desc11:
+    "It procures the most suitable products at the best prices from the most reliable sources, according to the specific requests of its customers, and ensures safe and timely transportation to target regions around the world. In this process, it alleviates the operational burdens of the companies it serves, providing time and cost advantages. Particularly, its deep experience in challenging products such as explosives sets it apart in the industry.",
+  desc12:
+    "Due to legal and political obstacles in certain regions of the world, it manages the processes in the most effective way through its flexible structure, saving time for its customers and providing reliable trade in complex product supply situations.",
+  desc13:
+    "Our goal is to minimize the obstacles our customers face on their international trade journeys by always providing the highest quality. With our experienced and specialized team, we create tailored solutions for each customer and establish strategies suitable for your business by keeping up with the latest developments in the industry. By overcoming the challenges of trade, we aim to be a valuable business partner for you.",
+  title2: "Our Mission & Our Vision",
   desc2:
-    "By finding the highest quality and most economical manufacturers in every country, primarily in construction and industrial materials, we quickly supply our customers with the right materials under the best conditions. With our experienced and specialized team, we support your commercial activities by providing tailored solutions for each client. We closely monitor changes in the industry and determine the most suitable strategies for your business.",
+    "• Our Mission: We support our customers' successes by providing reliable solutions that overcome the challenges of global trade.",
+  desc21:
+    "• Our Vision: As a global leader, to provide innovative solutions in every sector and to offer innovative solutions and services in new markets worldwide.",
+  desc22:
+    "• Social Responsibility: We aim to raise environmental awareness in the industry through the procurement of eco-friendly materials and sustainable solutions. We add value to society through our contributions to education and environmental projects.",
+  desc23:
+    "• Technology and Innovation: We closely follow technology and innovations, continuously updating our work to provide innovative solutions that meet the needs of the industry.",
+  desc24:
+    "• Global Network and Communication: By establishing a strong network with our business partners around the world, we conduct effective operations on every continent and take strategic steps globally to provide the best service to our customers.",
+  desc25:
+    "The projects we undertake with our esteemed business partners worldwide not only reinforce the quality of our work but also our reliability. By aiming for the highest standards in every project, we establish long-term collaborations and secure a strong presence in the global market.",
+  desc26:
+    "• International Operations: Since the establishment of our company, we have successfully completed projects in many countries, including Turkmenistan, Algeria, Malta, Russia, Iraq, Mali, Georgia, Ghana, Gabon, Senegal, and Azerbaijan, achieving significant successes on the international stage. These projects not only demonstrate our competence in global-scale projects but also reinforce our position as a leading company in our industry.",
+
   img1: r1,
 
   title3: "Who are our customers?",

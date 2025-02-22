@@ -20,59 +20,61 @@ const Header = () => {
 
   return (
     <header className="w-full">
-      <div className="flex flex-col lg:flex-row justify-between items-center px-4 lg:px-8 py-4">
-        <div className="flex justify-between items-center w-full lg:w-auto">
-          <img
-            src={logo || "/placeholder.svg"}
-            className="w-32 h-auto"
-            alt="Logo"
-          />
-          <button onClick={toggleMenu} className="lg:hidden text-2xl">
-            {isMenuOpen ? <FaTimes /> : <FaBars />}
-          </button>
+      <div>
+        <div className="flex flex-col lg:flex-row justify-between items-center px-4 lg:px-8 py-4">
+          <div className="flex justify-between items-center w-full lg:w-auto">
+            <img
+              src={logo || "/placeholder.svg"}
+              className="w-[15rem] h-auto"
+              alt="Logo"
+            />
+            <button onClick={toggleMenu} className="lg:hidden text-2xl">
+              {isMenuOpen ? <FaTimes /> : <FaBars />}
+            </button>
+          </div>
+          <div className="flex items-center mt-4 lg:mt-0">
+            <div className="flex items-center mr-4">
+              <Switch
+                checked={darkMode}
+                onChange={toggleTheme}
+                sx={{
+                  width: 40,
+                  height: 24,
+                  padding: 0,
+                  "& .MuiSwitch-thumb": {
+                    backgroundColor: "#f7c75e",
+                    width: 13,
+                    height: 16,
+                    transform: "translateY(-6px)",
+                  },
+                  "& .MuiSwitch-track": {
+                    backgroundColor: darkMode ? "red" : "black",
+                    borderRadius: "9999px",
+                    width: 55,
+                    height: 24,
+                  },
+                }}
+              />
+              <label className="ml-2 text-xs">{themeName}</label>
+            </div>
+            <span className="font-bold mx-2">|</span>
+            <div>
+              <label onClick={languageChange} className="cursor-pointer">
+                <span className="text-[#f7c75e] text-xs font-bold">
+                  {language === TURKCE
+                    ? languageEng.tr + languageEng.ekTr
+                    : languageTr.ekEng + languageTr.eng}
+                </span>
+              </label>
+            </div>
+          </div>
         </div>
         <div
           className={`lg:flex ${
             isMenuOpen ? "block" : "hidden"
-          } w-full lg:w-auto`}
+          } w-full lg:w-auto justify-center`}
         >
           <NavlinkMenu isMenuOpen={isMenuOpen} toggleMenu={toggleMenu} />
-        </div>
-        <div className="flex items-center mt-4 lg:mt-0">
-          <div className="flex items-center mr-4">
-            <Switch
-              checked={darkMode}
-              onChange={toggleTheme}
-              sx={{
-                width: 40,
-                height: 24,
-                padding: 0,
-                "& .MuiSwitch-thumb": {
-                  backgroundColor: "#f7c75e",
-                  width: 13,
-                  height: 16,
-                  transform: "translateY(-6px)",
-                },
-                "& .MuiSwitch-track": {
-                  backgroundColor: darkMode ? "red" : "black",
-                  borderRadius: "9999px",
-                  width: 55,
-                  height: 24,
-                },
-              }}
-            />
-            <label className="ml-2 text-xs">{themeName}</label>
-          </div>
-          <span className="font-bold mx-2">|</span>
-          <div>
-            <label onClick={languageChange} className="cursor-pointer">
-              <span className="text-[#f7c75e] text-xs font-bold">
-                {language === TURKCE
-                  ? languageEng.tr + languageEng.ekTr
-                  : languageTr.ekEng + languageTr.eng}
-              </span>
-            </label>
-          </div>
         </div>
       </div>
     </header>

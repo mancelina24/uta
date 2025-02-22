@@ -1,58 +1,120 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import { UserContext } from "../contexts/UserContext";
-import { aboutEng } from "../api/dataEng";
+import { aboutEng, addressEng } from "../api/dataEng";
 import { aboutTr, TURKCE } from "../api/dataTr";
 
 const About = () => {
   const { language, darkMode } = useContext(UserContext);
+  const [openTitle, setOpenTitle] = useState(null);
+
+  const toggleDescription = (title) => {
+    setOpenTitle((prevTitle) => (prevTitle === title ? null : title));
+  };
+
   return (
     <div className="flex flex-col mt-10">
       <div>
-        <p
+        <h4
           className=" text-3xl my-5 md:text-5xl leading-[58.09px] tracking-[1%]  font-medium text-center "
           style={{ fontFamily: "Inter, sans-serif" }}
         >
-          {" "}
           {language === TURKCE ? "About" : "Hakkımızda"}
-        </p>
+        </h4>
       </div>
       <div>
-        <div className="w-[80%] flex flex-col justify-center items-center mx-auto my-8">
-          <p className="text-center">
-            {" "}
+        <div className="w-[80%] flex flex-col justify-center items-center md:justify-start md:text-start md:items-start mx-auto">
+          <p className="text-start my-5 md:my-2">
             {language === TURKCE ? aboutEng.desc1 : aboutTr.desc1}
           </p>
+
+          <p className="text-start my-5 md:my-2">
+            {language === TURKCE ? aboutEng.desc11 : aboutTr.desc11}
+          </p>
+          <hr />
+          <p className="text-start my-5 md:my-2">
+            {language === TURKCE ? aboutEng.desc12 : aboutTr.desc12}
+          </p>
+          <hr />
+          <p className="text-start my-5 md:my-2">
+            {language === TURKCE ? aboutEng.desc13 : aboutTr.desc13}
+          </p>
         </div>
-        <div className="flex flex-row w-[80%] justify-center items-center mx-auto my-10 gap-10">
-          <div>
-            <img
-              src={aboutTr.img1}
-              className="img-fluid rounded max-w-full h-auto"
-              alt=""
-            />
-          </div>
-          <div className="flex flex-col w-[70%] justify-center items-center mx-auto my-10">
-            <h2 className="mb-5 font-bold">
-              {" "}
+        <div className="flex flex-col w-[80%] justify-start items-start text-start mx-auto gap-5">
+          {/* Başlık 1 */}
+          <div className="flex flex-col w-full justify-center items-center mx-auto my-5">
+            <h2
+              className="mb-5 font-bold cursor-pointer"
+              onClick={() =>
+                toggleDescription(
+                  language === TURKCE ? aboutEng.title2 : aboutTr.title2
+                )
+              }
+            >
               {language === TURKCE ? aboutEng.title2 : aboutTr.title2}
             </h2>
-            <p> {language === TURKCE ? aboutEng.desc2 : aboutTr.desc2}</p>
+            {openTitle ===
+              (language === TURKCE ? aboutEng.title2 : aboutTr.title2) && (
+              <div>
+                <p className="text-start my-5 ">
+                  {language === TURKCE ? aboutEng.desc2 : aboutTr.desc2}
+                </p>
+                <p className="text-start my-5">
+                  {language === TURKCE ? aboutEng.desc21 : aboutTr.desc21}
+                </p>
+                <p className="text-start my-5">
+                  {language === TURKCE ? aboutEng.desc22 : aboutTr.desc22}
+                </p>
+                <p className="text-start my-5">
+                  {language === TURKCE ? aboutEng.desc23 : aboutTr.desc23}
+                </p>
+                <p className="text-start my-5">
+                  {language === TURKCE ? aboutEng.desc24 : aboutTr.desc24}
+                </p>
+                <p className="text-start my-5">
+                  {language === TURKCE ? aboutEng.desc25 : aboutTr.desc25}
+                </p>
+              </div>
+            )}
           </div>
-        </div>
-        <div className="flex flex-row w-[80%] justify-center items-center mx-auto my-10 gap-10">
-          <div>
-            <img
-              src={aboutTr.img2}
-              className="img-fluid rounded max-w-full h-auto"
-              alt=""
-            />
+
+          {/* Başlık 2 */}
+          <div className="flex flex-col w-full justify-center items-center mx-auto my-5">
+            <h2
+              className="mb-5 font-bold cursor-pointer"
+              onClick={() =>
+                toggleDescription(
+                  language === TURKCE ? aboutEng.title2 : aboutTr.title2
+                )
+              }
+            >
+              {language === TURKCE ? aboutEng.title2 : aboutTr.title2}
+            </h2>
+            {openTitle ===
+              (language === TURKCE ? aboutEng.title2 : aboutTr.title2) && (
+              <p className="text-center">
+                {language === TURKCE ? aboutEng.desc2 : aboutTr.desc2}
+              </p>
+            )}
           </div>
-          <div className="flex flex-col w-[90%] justify-center items-center mx-auto my-10">
-            <h2 className="mb-5 font-bold">
-              {" "}
+
+          {/* Başlık 3 */}
+          <div className="flex flex-col w-full justify-center items-center mx-auto my-5">
+            <h2
+              className="mb-5 font-bold cursor-pointer"
+              onClick={() =>
+                toggleDescription(
+                  language === TURKCE ? aboutEng.title3 : aboutTr.title3
+                )
+              }
+            >
               {language === TURKCE ? aboutEng.title3 : aboutTr.title3}
             </h2>
-            <p> {language === TURKCE ? aboutEng.desc3 : aboutTr.desc3}</p>
+            {openTitle ===
+              (language === TURKCE ? aboutEng.title3 : aboutTr.title3) && (
+              <p className="text-center">
+                {language === TURKCE ? aboutEng.desc3 : aboutTr.desc3}
+              </p>
+            )}
           </div>
         </div>
       </div>

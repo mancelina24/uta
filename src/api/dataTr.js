@@ -50,9 +50,12 @@ import uta_yapi1 from "../assets/grup/uta_yapi1.png";
 import uta from "../assets/grup/uta.png";
 
 import sly1 from "../assets/slayt/sly1.png";
-import sly2 from "../assets/slayt/sly1.png";
-import sly3 from "../assets/slayt/sly1.png";
-import sly4 from "../assets/slayt/sly1.png";
+import sly2 from "../assets/slayt/sly2.png";
+import sly3 from "../assets/slayt/sly3.png";
+import sly4 from "../assets/slayt/sly4.png";
+import sly5 from "../assets/slayt/sly5.png";
+import sly6 from "../assets/slayt/sly6.png";
+import sly7 from "../assets/slayt/sly7.png";
 
 export const TURKCE = "turkish";
 
@@ -68,7 +71,7 @@ export const toggleLanguageTr = {
   trLight: "AYDINLIK MOD",
 };
 
-export const carousel = [sly1, sly2, sly3, sly4];
+export const carousel = [sly7, sly1, sly2, sly3, sly4, sly5, sly6];
 
 export const anaLinklerTr = [
   "Anasayfa",
@@ -145,11 +148,30 @@ export const ourServicesTr = {
 
 export const aboutTr = {
   title1: "Hakkımızda",
+  title11: "Biz kimiz?",
   desc1:
-    "UTA GROUP COMPANIES, uluslararası ticarette uzmanlaşmış bir ekip tarafından 2011 senesinde kurulmuş ve sonrasında yapmış olduğu hizmetler ile Türkiye de ihracatta en iyi 1000 firma içinde yer alarak başarılar elde etmiştir. Müşterilerinin ihtiyaçları doğrultusunda en doğru ürünü en doğru fiyata en doğru yerden tedarik ederek talep edilen bölgeye nakliyesini gerçekleştirmektedir. Böylece hizmet verdiği firmaların üzerinden bir çok yükü alarak para ve zaman avantajı sağlamaktadır. Özellikle tedariği veya nakliyesi zor olan patlayıcı maddeler gibi ürünlerde olan tecrübesi ile fark yaratmaktadır. Amacımız, müşterilerimize en iyi hizmeti sunarak işletmelerinin uluslararası arenada başarılı olmalarına yardımcı olmaktır Deneyimli ve uzman kadromuzla, her müşteriye özel çözümler sunarak ticari faaliyetlerinizi destekliyoruz. Sektördeki değişimleri yakından takip ediyor ve işletmenize en uygun stratejileri belirliyoruz.",
-  title2: "Ne Yaparız?",
+    "UTA GROUP, uluslararası ticaretin dinamiklerine hâkim, deneyimli bir ekip tarafından 2011 yılında Uzak Yol Kaptanı Fazlı TÜRKAY ve ortakları tarafından kurulduktan sonra, şirketin tamamı Uzak Yol Kaptanı Fazlı TÜRKAY tarafından devralınmıştır. Başarı yolculuğunda hızla ilerleyen UTA GROUP, İhracatta Türkiye'deki en iyi 1000 ihracat firması arasında yer alarak, ticaretin her alanında büyük başarılara imza atmıştır ve bu başarıları hız kesmeden sürdürmektedir.",
+  desc11:
+    "Müşterilerinin özel taleplerine göre en doğru ürünü, en uygun fiyatla ve en güvenilir kaynaklardan temin ederek, dünyanın dört bir yanındaki hedef bölgelere güvenli ve zamanında nakliyelerini gerçekleştirmektedir. Bu süreçte, hizmet verdiği firmaların operasyonel yüklerini hafifleterek, zaman ve maliyet avantajı sunmaktadır. Özellikle, patlayıcı maddeler gibi tedarik ve nakliyesi zorlu ürünlerdeki derin tecrübesi ile sektörde fark yaratmaktadır.",
+  desc12:
+    "Dünyanın belli bölgelerindeki hukuksal ve siyasal engeller nedeni ile karmaşık hale gelen ürün tedariki durumlarında esnek yapısı sayesinde süreçleri en doğru şekilde yöneterek müşterilerine zaman kazandırmakta ve güvenilir bir ticaret sunmaktadır.",
+  desc13:
+    "Amacımız, her zaman en yüksek kaliteyi sunarak müşterilerimizin uluslararası ticaret yolculuklarında karşılaştıkları engelleri minimize etmektir. Deneyimli ve uzman kadromuzla, her müşteriye özel çözümler üretiyor ve sektördeki en son gelişmeleri takip ederek işletmenize uygun stratejiler belirliyoruz. Ticaretin zorluklarını aşarak, size değerli bir iş ortağı olmayı hedefliyoruz.",
+  title2: "Misyonumuz & Vizyonumuz",
   desc2:
-    "İnşaat ve endüstriyel malzemeler başta olmak üzere her ülkedeki en kaliteli ve ekonomik üreticileri bularak, müşterilerine doğru malzemeyi en uygun koşullarda çok hızlı bir şekilde tedarik eder.",
+    "•	Misyonumuz: Dünya çapında ticaretin zorluklarını aşan güvenilir çözümler sunarak, müşterilerimizin başarılarını destekliyoruz.",
+  desc21:
+    "•	Vizyonumuz: Küresel bir lider olarak, her sektörde yenilikçi çözümler sunarak dünya çapında yeni pazarlar da inovatif çözümler sunmak ve hizmet vermek.",
+  desc22:
+    "•	Sosyal Sorumluluk: Çevre dostu malzeme tedariki ve sürdürülebilir çözümlerle sektördeki çevre bilincini artırmayı amaçlıyoruz. Eğitim ve çevre projelerimize olan katkımızla topluma değer katıyoruz. ",
+  desc23:
+    "•	Teknoloji ve Yenilikçilik:Teknoloji ve yenilikleri yakından takip edip çalışmalarımızı sürekli güncelleyerek sektörün gereksinimlerine uygun inovatif çözümler sunuyoruz.",
+  desc24:
+    "•	Global Ağ ve İletişim:Dünyanın dört bir yanındaki iş ortaklarımızla güçlü bir ağ kurarak, her kıtada etkili operasyonlar yürütüyor ve müşterilerimize en iyi hizmeti sunmak için küresel çapta stratejik adımlar atıyoruz.",
+  desc25:
+    "Dünya çapında saygın iş ortaklarımızla yürüttüğümüz projeler, sadece işimizin kalitesini değil, aynı zamanda güvenilirliğimizi de pekiştiriyor. Her projede en yüksek standartları hedefleyerek, uzun vadeli iş birlikleri kuruyor ve global pazarda güçlü bir yer ediniyoruz.",
+  desc26:
+    "•	 Uluslararası Çalışmalar:Şirketimizin kurulduğu günden bugüne, Türkmenistan, Cezayir, Malta, Rusya, Irak, Mali, Gürcistan, Ghana, Gabon, Senegal ve Azerbaycan gibi bir çok ülkede hizmet verdiği projeleri, başarıyla tamamlayarak uluslararası arenada başarılara imza atmıştır. Bu projeler, hem şirketimizin küresel ölçekli projelerdeki yetkinliğini kanıtlamakta hem de sektörümüzdeki öncü firma konumumuzu pekiştirmektedir.",
   img1: r1,
   title3: "Müşterilerimiz Kimlerdir?",
   desc3:
@@ -235,10 +257,10 @@ export const addressTr = {
   linkedin: "https://www.linkedin.com/company/united-trade-agency",
   facebook: "https://www.facebook.com/p/UTA-Group-100069544887153/",
   instagram: "https://www.instagram.com/uta_group_companies/",
+  youTube: "http://www.youtube.com/@utagroupcompanies7432",
 };
 
 export const grups = [
-  faras,
   stroy,
   makspor,
   uta_energy,

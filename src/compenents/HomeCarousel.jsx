@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { carousel } from "../api/dataTr.js";
+import { FaChevronLeft, FaChevronRight } from "react-icons/fa6";
 
 const HomeCarousel = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -22,7 +23,7 @@ const HomeCarousel = () => {
     return () => clearInterval(intervalId); // Bileşen unmont edildiğinde interval silinir
   }, []);
   return (
-    <div className="flex justify-center my-10 items-center">
+    <div className="flex justify-center mb-5 items-center">
       <div className="relative  w-[90%] h-auto overflow-hidden">
         <div
           className="flex transition-transform duration-700"
@@ -39,15 +40,15 @@ const HomeCarousel = () => {
         </div>
         <button
           onClick={prevSlide}
-          className="absolute top-1/2 left-4 transform -translate-y-1/2 bg-white p-2 rounded-full shadow"
+          className="absolute top-1/2 left-4 transform -translate-y-1/2 p-2 rounded-full  w-[14rem] h-[3.9rem]"
         >
-          ⬅️
+          <FaChevronLeft className="text-white text-2xl md:text-4xl bg-transparent" />
         </button>
         <button
           onClick={nextSlide}
-          className="absolute top-1/2 right-4 transform -translate-y-1/2 bg-white p-2 rounded-full shadow"
+          className="absolute top-1/2 right-4 transform -translate-y-1/2 p-2 rounded-full "
         >
-          ➡️
+          <FaChevronRight className="text-white text-2xl md:text-4xl bg-transparent" />
         </button>
       </div>
     </div>

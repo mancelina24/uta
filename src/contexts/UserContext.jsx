@@ -11,7 +11,7 @@ export const UserContext = createContext();
 
 export default function UserContextProvider({ children }) {
   const [darkMode, setDarkMode] = useLocalStorage("theme", false);
-  const [language, setLanguage] = useLocalStorage("lang", "tr");
+  const [language, setLanguage] = useLocalStorage("lang", "eng");
   const [themeName, setThemeName] = useState("");
 
   const updateThemeName = (darkMode, language) => {
