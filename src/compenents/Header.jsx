@@ -1,68 +1,77 @@
-import React, { useContext } from "react";
-import { UserContext } from "../contexts/UserContext.jsx";
+"use client";
 
+import { useContext, useState } from "react";
+import { UserContext } from "../contexts/UserContext.jsx";
 import { languageEng } from "../api/dataEng.js";
 import { TURKCE, languageTr } from "../api/dataTr.js";
-
 import Switch from "@mui/material/Switch";
 import logo from "../assets/header/logo.jpg";
 import { NavlinkMenu } from "./NavlinkMenu.jsx";
+import { FaBars, FaTimes } from "react-icons/fa";
 
 const Header = () => {
-  const label = { inputProps: { "aria-label": "Size switch demo" } };
-
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
   const { languageChange, toggleTheme, language, themeName, darkMode } =
     useContext(UserContext);
 
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
   return (
     <header className="w-full">
-      <div className="flex justify-around">
-        <div className="w-[15%]">
-          <img src={logo} className="w-45 h-auto ml-5 mt-5" alt="" />
+      <div className="flex flex-col lg:flex-row justify-between items-center px-4 lg:px-8 py-4">
+        <div className="flex justify-between items-center w-full lg:w-auto">
+          <img
+            src={logo || "/placeholder.svg"}
+            className="w-32 h-auto"
+            alt="Logo"
+          />
+          <button onClick={toggleMenu} className="lg:hidden text-2xl">
+            {isMenuOpen ? <FaTimes /> : <FaBars />}
+          </button>
         </div>
-        <div className="w-[80%]">
-          <NavlinkMenu />
+        <div
+          className={`lg:flex ${
+            isMenuOpen ? "block" : "hidden"
+          } w-full lg:w-auto`}
+        >
+          <NavlinkMenu isMenuOpen={isMenuOpen} toggleMenu={toggleMenu} />
         </div>
-        <div className="mt-10 w-[25%]">
-          <div className="flex bottom-15 bg-none border-none ">
-            <div className="flex flex-row cursor-pointer pr-4 font-bold  ">
-              <Switch
-                {...label}
-                checked={darkMode}
-                onChange={toggleTheme}
-                sx={{
-                  width: 40,
+        <div className="flex items-center mt-4 lg:mt-0">
+          <div className="flex items-center mr-4">
+            <Switch
+              checked={darkMode}
+              onChange={toggleTheme}
+              sx={{
+                width: 40,
+                height: 24,
+                padding: 0,
+                "& .MuiSwitch-thumb": {
+                  backgroundColor: "#f7c75e",
+                  width: 13,
+                  height: 16,
+                  transform: "translateY(-6px)",
+                },
+                "& .MuiSwitch-track": {
+                  backgroundColor: darkMode ? "red" : "black",
+                  borderRadius: "9999px",
+                  width: 55,
                   height: 24,
-                  padding: 0,
-                  display: "flex",
-                  "& .MuiSwitch-thumb": {
-                    backgroundColor: "#f7c75e",
-                    width: 13, // Thumb (circle) width
-                    height: 16, // Thumb (circle) height
-                    transform: "translateY(-6px)",
-                  },
-
-                  "& .MuiSwitch-track": {
-                    backgroundColor: darkMode ? "red" : "black",
-                    borderRadius: "9999px", // Keep the track rounded
-                    width: 55, // Thumb (circle) width
-                    height: 24, // Thumb (circle) height
-                  },
-                }}
-              />
-              <label className=" ml-2 mt-[0.4rem] text-xs">{themeName}</label>
-            </div>
-            <span className="font-bold pr-2"> | </span>
-            <div className="flex flex-row">
-              <label onClick={languageChange}>
-                <span className="text-[#f7c75e] text-xs font-bold">
-                  {language === TURKCE ? languageEng.tr + languageEng.ekTr : ""}
-                </span>
-                <span className="text-[##f7c75e] text-xs font-bold">
-                  {language === TURKCE ? "" : languageTr.ekEng + languageTr.eng}
-                </span>
-              </label>
-            </div>
+                },
+              }}
+            />
+            <label className="ml-2 text-xs">{themeName}</label>
+          </div>
+          <span className="font-bold mx-2">|</span>
+          <div>
+            <label onClick={languageChange} className="cursor-pointer">
+              <span className="text-[#f7c75e] text-xs font-bold">
+                {language === TURKCE
+                  ? languageEng.tr + languageEng.ekTr
+                  : languageTr.ekEng + languageTr.eng}
+              </span>
+            </label>
           </div>
         </div>
       </div>
