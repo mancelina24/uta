@@ -1,5 +1,6 @@
-import React from "react";
+import React, { useContext } from "react";
 import { UserContext } from "../contexts/UserContext";
+import { TURKCE } from "../api/dataTr";
 
 const Catalogs = () => {
   const { language } = useContext(UserContext);

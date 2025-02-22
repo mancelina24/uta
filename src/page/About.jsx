@@ -12,10 +12,10 @@ const About = () => {
   };
 
   return (
-    <div className="flex flex-col mt-10">
+    <div className="flex flex-col mt-10 mb-10">
       <div>
         <h4
-          className=" text-3xl my-5 md:text-5xl leading-[58.09px] tracking-[1%]  font-medium text-center "
+          className=" text-3xl font-bold  md:text-5xl leading-[58.09px] tracking-[1%]  text-center "
           style={{ fontFamily: "Inter, sans-serif" }}
         >
           {language === TURKCE ? "About" : "Hakkımızda"}
@@ -43,7 +43,7 @@ const About = () => {
           {/* Başlık 1 */}
           <div className="flex flex-col w-full justify-center items-center mx-auto my-5">
             <h2
-              className="mb-5 font-bold cursor-pointer"
+              className="mb-5 font-bold text-center cursor-pointer text-3xl hover:bg-[#fcbc04] hover:rounded-xl hover:p-2"
               onClick={() =>
                 toggleDescription(
                   language === TURKCE ? aboutEng.title2 : aboutTr.title2
@@ -80,27 +80,7 @@ const About = () => {
           {/* Başlık 2 */}
           <div className="flex flex-col w-full justify-center items-center mx-auto my-5">
             <h2
-              className="mb-5 font-bold cursor-pointer"
-              onClick={() =>
-                toggleDescription(
-                  language === TURKCE ? aboutEng.title2 : aboutTr.title2
-                )
-              }
-            >
-              {language === TURKCE ? aboutEng.title2 : aboutTr.title2}
-            </h2>
-            {openTitle ===
-              (language === TURKCE ? aboutEng.title2 : aboutTr.title2) && (
-              <p className="text-center">
-                {language === TURKCE ? aboutEng.desc2 : aboutTr.desc2}
-              </p>
-            )}
-          </div>
-
-          {/* Başlık 3 */}
-          <div className="flex flex-col w-full justify-center items-center mx-auto my-5">
-            <h2
-              className="mb-5 font-bold cursor-pointer"
+              className="mb-5 font-bold cursor-pointer text-3xl hover:bg-[#fcbc04] hover:rounded-xl hover:p-2"
               onClick={() =>
                 toggleDescription(
                   language === TURKCE ? aboutEng.title3 : aboutTr.title3
@@ -111,9 +91,11 @@ const About = () => {
             </h2>
             {openTitle ===
               (language === TURKCE ? aboutEng.title3 : aboutTr.title3) && (
-              <p className="text-center">
-                {language === TURKCE ? aboutEng.desc3 : aboutTr.desc3}
-              </p>
+              <div>
+                <p className="text-start">
+                  {language === TURKCE ? aboutEng.desc3 : aboutTr.desc3}
+                </p>
+              </div>
             )}
           </div>
         </div>
