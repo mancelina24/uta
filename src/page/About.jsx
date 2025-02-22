@@ -1,7 +1,7 @@
 import React, { useContext, useState } from "react";
 import { UserContext } from "../contexts/UserContext";
 import { aboutEng, addressEng } from "../api/dataEng";
-import { aboutTr, TURKCE } from "../api/dataTr";
+import { aboutTr, grups, TURKCE } from "../api/dataTr";
 
 const About = () => {
   const { language, darkMode } = useContext(UserContext);
@@ -76,6 +76,7 @@ const About = () => {
               </div>
             )}
           </div>
+          <br />
 
           {/* Başlık 2 */}
           <div className="flex flex-col w-full justify-center items-center mx-auto my-5">
@@ -95,6 +96,36 @@ const About = () => {
                 <p className="text-start">
                   {language === TURKCE ? aboutEng.desc3 : aboutTr.desc3}
                 </p>
+              </div>
+            )}
+          </div>
+          <br />
+          {/* Başlık 3 */}
+          <div className="flex flex-col w-full justify-center items-center mx-auto my-5">
+            <h2
+              className="mb-5 font-bold text-center cursor-pointer text-3xl hover:bg-[#fcbc04] hover:rounded-xl hover:p-2"
+              onClick={() =>
+                toggleDescription(
+                  language === TURKCE ? aboutEng.title2 : aboutTr.title2
+                )
+              }
+            >
+              {language === TURKCE
+                ? "Our Group Componies"
+                : "Grup Şirketlerimiz"}
+            </h2>
+            {openTitle ===
+              (language === TURKCE ? aboutEng.title2 : aboutTr.title2) && (
+              <div>
+                <div>
+                  <figure className="grid md:grid-cols-4 grid-cols-2 gap-8 md:gap-2 mt-10">
+                    {grups.map((grup, i) => (
+                      <div key={i} className="px-2 ">
+                        <img src={grup} className="w-40 h-auto" />
+                      </div>
+                    ))}
+                  </figure>
+                </div>
               </div>
             )}
           </div>
