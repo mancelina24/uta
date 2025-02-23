@@ -10,7 +10,7 @@ import { TURKCE, toggleLanguageTr } from "../api/dataTr";
 export const UserContext = createContext();
 
 export default function UserContextProvider({ children }) {
-  const [darkMode, setDarkMode] = useLocalStorage("theme", false);
+  const [darkMode, setDarkMode] = useLocalStorage("theme", true);
   const [language, setLanguage] = useLocalStorage("lang", "eng");
   const [themeName, setThemeName] = useState("");
 

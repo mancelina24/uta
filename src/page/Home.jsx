@@ -157,6 +157,15 @@ const Home = () => {
           </div>
         </div>
       </section>
+      <div className="flex justify-center items-center mb-10">
+        <figure className="grid md:grid-cols-4 grid-cols-2 gap-8 md:gap-2 mt-10">
+          {grups.map((grup, i) => (
+            <div key={i} className="px-2 ">
+              <img src={grup} className="w-30 h-auto" />
+            </div>
+          ))}
+        </figure>
+      </div>
     </div>
   );
 };
