@@ -21,12 +21,12 @@ const Galery = () => {
     <section>
       <div className="flex flex-col">
         <div>
-          <p
+          <h4
             className=" text-3xl my-10 md:text-5xl leading-[58.09px] tracking-[1%] font-medium text-center "
             style={{ fontFamily: "Inter, sans-serif" }}
           >
             {language === TURKCE ? "Gallery" : "Galeri"}
-          </p>
+          </h4>
         </div>
         <figure className="grid grid-cols-1 gap-2 justify-items-center">
           {galleryData.desc.map((galery) => (

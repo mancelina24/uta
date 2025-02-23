@@ -1,5 +1,3 @@
-import r1 from "../assets/about/r1.png";
-import r2 from "../assets/about/r2.png";
 import logo from "../assets/header/logo.jpg";
 import c1 from "../assets/projects/c1.png";
 import c2 from "../assets/projects/c2.png";
@@ -96,7 +94,7 @@ export const anaLinklerEng = [
 
 export const anasayfaEng = {
   title: "Welcome",
-  desc: "We are pleased to host you as UTA GROUP COMPANIES. As an International Trade Company, we are here to grow your business and increase your profits with our connections on every continent and the services we offer.",
+  desc: "As an International Trade Company, we are here to grow your business and increase your profits with our connections on every continent and the services we offer.",
 };
 
 export const projectsEng = {
@@ -228,12 +226,9 @@ export const aboutEng = {
   desc26:
     "• International Operations: Since the establishment of our company, we have successfully completed projects in many countries, including Turkmenistan, Algeria, Malta, Russia, Iraq, Mali, Georgia, Ghana, Gabon, Senegal, and Azerbaijan, achieving significant successes on the international stage. These projects not only demonstrate our competence in global-scale projects but also reinforce our position as a leading company in our industry.",
 
-  img1: r1,
-
   title3: "Our Target",
   desc3:
     "As UTA GROUP, we aim to deepen our global partnerships and offer our customers a wider, richer, and more diverse product range. Without compromising our principle of transparency, we strive to minimize our customers' economic and time losses while developing increasingly innovative and faster solutions every day. By keeping up with the latest developments in the rapidly changing world of trade, we continuously make our services more efficient and reliable. With our many years of experience in the industry, we quickly manage complex and challenging supply chains, optimizing our customers' business processes. We aim to be a strong business partner against the challenges of international trade by developing strategies that provide our customers with a competitive advantage.",
-  img2: r2,
 };
 
 export const galeryEng = {

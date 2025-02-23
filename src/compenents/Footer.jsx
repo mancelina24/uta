@@ -12,7 +12,7 @@ import { FaMobileScreen } from "react-icons/fa6";
 import { MdCall } from "react-icons/md";
 import { IoIosMail } from "react-icons/io";
 
-import { addressTr, grups, katalog, TURKCE } from "../api/dataTr";
+import { addressTr, TURKCE } from "../api/dataTr";
 import { addressEng } from "../api/dataEng";
 
 const footer = () => {
@@ -23,7 +23,7 @@ const footer = () => {
         <div className="flex flex-col md:flex-row gap-y-10 justify-center items-center md:justify-between ">
           <div className=" flex flex-col justify-center text-center md:text-start md:justify-start  md:ml-10">
             <div className="text-center md:text-left">
-              <h3 className="text-3xl font-extrabold  mb-2 text-black">
+              <h3 className="text-3xl font-extrabold  mb-2 text-grey">
                 UTA GROUP COMPANIES
               </h3>
             </div>

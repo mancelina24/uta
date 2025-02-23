@@ -1,5 +1,3 @@
-import r1 from "../assets/about/r1.png";
-import r2 from "../assets/about/r2.png";
 import logo from "../assets/header/logo.jpg";
 import c1 from "../assets/projects/c1.png";
 import c2 from "../assets/projects/c2.png";
@@ -75,14 +73,6 @@ import g112 from "../assets/galeri/g112.png";
 import g113 from "../assets/galeri/g113.png";
 import g114 from "../assets/galeri/g114.png";
 
-import UTA_Catalog from "../assets/UTA_Catalog.pdf";
-import UTA_CorporateProfilePresentation from "../assets/UTA_CorporateProfilePresentation.pdf";
-import UTA_GroupCompanies from "../assets/UTA_SportsEquipments.pdf";
-
-import UTA_Patent from "../assets/UTA_Patent.pdf";
-import UTA_1000 from "../assets/UTA_1000.pdf";
-import UTA_Faaliyet from "../assets/UTA_Faaliyet.pdf";
-
 import makspor from "../assets/grup/makspor.png";
 import stroy from "../assets/grup/stroy.png";
 import uta_energy from "../assets/grup/uta_energy.png";
@@ -106,12 +96,6 @@ export const languageTr = {
   eng: "ENGLISH",
   ekEng: "SWITCH TO ",
 };
-export const katalog = [
-  UTA_Catalog,
-  UTA_CorporateProfilePresentation,
-  UTA_GroupCompanies,
-];
-export const patent = [UTA_Patent, UTA_1000, UTA_Faaliyet];
 
 export const toggleLanguageTr = {
   trDark: "KARANLIK MOD",
@@ -259,11 +243,9 @@ export const aboutTr = {
     "Dünya çapında saygın iş ortaklarımızla yürüttüğümüz projeler, sadece işimizin kalitesini değil, aynı zamanda güvenilirliğimizi de pekiştiriyor. Her projede en yüksek standartları hedefleyerek, uzun vadeli iş birlikleri kuruyor ve global pazarda güçlü bir yer ediniyoruz.",
   desc26:
     "•	 Uluslararası Çalışmalar:Şirketimizin kurulduğu günden bugüne, Türkmenistan, Cezayir, Malta, Rusya, Irak, Mali, Gürcistan, Ghana, Gabon, Senegal ve Azerbaycan gibi bir çok ülkede hizmet verdiği projeleri, başarıyla tamamlayarak uluslararası arenada başarılara imza atmıştır. Bu projeler, hem şirketimizin küresel ölçekli projelerdeki yetkinliğini kanıtlamakta hem de sektörümüzdeki öncü firma konumumuzu pekiştirmektedir.",
-  img1: r1,
   title3: "Hedefimiz",
   desc3:
     "UTA GROUP olarak, küresel ölçekteki iş birliklerimizi derinleştirerek, müşterilerimize daha geniş, daha zengin ve daha çeşitli bir ürün yelpazesi sunmayı hedefliyoruz. Şeffaflık ilkemizden ödün vermeden, müşterilerimizin ekonomik ve zaman kayıplarını en aza indirirken, her geçen gün daha yenilikçi ve daha hızlı çözümler geliştirmeyi amaçlıyoruz. Hızla değişen ticaret dünyasında sektördeki en son gelişmeleri takip ederek, hizmetlerimizi sürekli olarak daha verimli ve güvenilir hale getiriyoruz. Sektördeki uzun yıllara dayanan tecrübemizle, karmaşık ve zorlu tedarik zincirlerini hızla yönetiyor, müşterilerimizin iş süreçlerini optimize ediyoruz. Müşterilerimize, rekabet avantajı sağlayacak stratejiler geliştirerek, uluslararası ticaretin zorluklarına karşı güçlü bir iş ortağı olmayı hedefliyoruz. ",
-  img2: r2,
 };
 
 export const galeryTr = {
@@ -384,37 +366,4 @@ export const grups = [
   uta_transport1,
   uta_yapi1,
   uta,
-];
-
-export const catalogs = [
-  {
-    id: 1,
-    title: "Uta Katalog",
-    pdfUrl: UTA_Catalog,
-  },
-  {
-    id: 2,
-    title: "Hotel Room Equipments",
-    pdfUrl: UTA_Catalog,
-  },
-  {
-    id: 3,
-    title: "H&R Textile",
-    pdfUrl: UTA_Catalog,
-  },
-  {
-    id: 4,
-    title: "H&R Cleaning Equipments",
-    pdfUrl: UTA_Catalog,
-  },
-  {
-    id: 5,
-    title: "Cafe & Bar",
-    pdfUrl: UTA_Catalog,
-  },
-  {
-    id: 6,
-    title: "Kitchen",
-    pdfUrl: UTA_Catalog,
-  },
 ];

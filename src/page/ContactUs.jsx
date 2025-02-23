@@ -13,7 +13,10 @@ const ContactUs = () => {
   return (
     <div className="flex flex-col">
       <div className="flex justify-center items-center">
-        <h4 className="mt-5 mb-10  font-bold text-3xl">
+        <h4
+          className=" text-3xl my-10 md:text-5xl leading-[58.09px] tracking-[1%] font-medium text-center "
+          style={{ fontFamily: "Inter, sans-serif" }}
+        >
           {language === TURKCE ? "Contact Us" : "Bize Ulaşın"}
         </h4>
       </div>
