@@ -117,8 +117,8 @@ const Home = () => {
         </h1>
         <h4 className="text-lg font-medium">
           {language === TURKCE
-            ? "We are with you at every step with a knowledgeable team, providing safe, transparent, and complete support!"
-            : "İşini Bilen Bir Ekip ile Güvenli, Şeffaf ve Tam Destek Her Adımda Yanınızdayız!"}
+            ? "With our experienced teams, we are with you at every step with safe and transparent service..."
+            : "Tecrübeli ekiplerimiz eşliğinde güvenli ve şeffaf hizmet ile her adımda yanınızdayız..."}
         </h4>
       </div>
       <div className="my-5 flex flex-col ">
