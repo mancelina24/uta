@@ -39,35 +39,48 @@ const Header = () => {
           >
             <NavlinkMenu isMenuOpen={isMenuOpen} toggleMenu={toggleMenu} />
           </div>
-          <div className="flex md:flex-col justfiy-center items-center mt-4 lg:mt-0">
+          <div className="flex md:flex-col justify-center items-center mt-4 lg:mt-0">
             <div className="flex items-center mr-4 md:mr-0">
               <Switch
                 checked={darkMode}
                 onChange={toggleTheme}
                 sx={{
-                  width: 40,
-                  height: 24,
+                  width: 48, // Adjusted width
+                  height: 28, // Adjusted height
                   padding: 0,
+                  "& .MuiSwitch-switchBase": {
+                    // Add this to adjust switch position
+                    padding: 1,
+                  },
                   "& .MuiSwitch-thumb": {
                     backgroundColor: "#f7c75e",
-                    width: 13,
-                    height: 16,
+                    width: 16, // Adjusted width
+                    height: 16, // Adjusted height
                     transform: "translateY(-6px)",
                   },
                   "& .MuiSwitch-track": {
-                    backgroundColor: darkMode ? "red" : "black",
+                    backgroundColor: darkMode
+                      ? "rgba(255,0,0,0.6)"
+                      : "rgba(0,0,0,0.6)", // Use rgba for slightly transparent colors
                     borderRadius: "9999px",
-                    width: 55,
-                    height: 24,
+                    opacity: 1, // Make sure track is visible
+                  },
+                  "& .MuiSwitch-checked+.MuiSwitch-track": {
+                    // Track color when checked
+                    backgroundColor: "rgba(255,0,0,0.6)",
                   },
                 }}
+                inputProps={{ "aria-label": "dark mode switch" }} // Accessibility
               />
-              <label className="ml-2 text-xs">{themeName}</label>
+              <label className="ml-2 text-sm">{themeName}</label>{" "}
+              {/* Increased text size */}
             </div>
             <span className="font-bold mx-2 md:hidden">|</span>
             <div>
               <label onClick={languageChange} className="cursor-pointer">
-                <span className="text-[#f7c75e] text-xs font-bold">
+                <span className="text-[#f7c75e] text-sm font-bold">
+                  {" "}
+                  {/* Increased text size */}
                   {language === TURKCE
                     ? languageEng.tr + languageEng.ekTr
                     : languageTr.ekEng + languageTr.eng}

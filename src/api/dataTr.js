@@ -7,6 +7,9 @@ import c3 from "../assets/projects/c3.png";
 import c4 from "../assets/projects/c4.png";
 import c5 from "../assets/projects/c5.png";
 import c6 from "../assets/projects/c6.png";
+import c7 from "../assets/projects/c7.png";
+import c8 from "../assets/projects/c8.png";
+
 import ser1 from "../assets/services/ser1.png";
 import ser2 from "../assets/services/ser2.png";
 import ser3 from "../assets/services/ser3.png";
@@ -19,31 +22,66 @@ import ser9 from "../assets/services/ser9.png";
 
 import g11 from "../assets/galeri/g11.png";
 import g12 from "../assets/galeri/g12.png";
+import g13 from "../assets/galeri/g13.png";
+import g14 from "../assets/galeri/g14.png";
+
 import g21 from "../assets/galeri/g21.png";
 import g22 from "../assets/galeri/g22.png";
 import g23 from "../assets/galeri/g23.png";
+import g24 from "../assets/galeri/g24.png";
+
 import g31 from "../assets/galeri/g31.png";
 import g32 from "../assets/galeri/g32.png";
 import g33 from "../assets/galeri/g33.png";
+import g34 from "../assets/galeri/g34.png";
+
 import g41 from "../assets/galeri/g41.png";
 import g42 from "../assets/galeri/g42.png";
 import g43 from "../assets/galeri/g43.png";
+import g44 from "../assets/galeri/g44.png";
 
 import g51 from "../assets/galeri/g51.png";
 import g52 from "../assets/galeri/g52.png";
 import g53 from "../assets/galeri/g53.png";
+import g54 from "../assets/galeri/g54.png";
+
 import g61 from "../assets/galeri/g61.png";
 import g62 from "../assets/galeri/g62.png";
 import g63 from "../assets/galeri/g63.png";
+import g64 from "../assets/galeri/g64.png";
+
 import g71 from "../assets/galeri/g71.png";
 import g72 from "../assets/galeri/g72.png";
 import g73 from "../assets/galeri/g73.png";
+import g74 from "../assets/galeri/g74.png";
 
 import g81 from "../assets/galeri/g81.png";
 import g82 from "../assets/galeri/g82.png";
 import g83 from "../assets/galeri/g83.png";
+import g84 from "../assets/galeri/g84.png";
+
 import g91 from "../assets/galeri/g91.png";
+import g92 from "../assets/galeri/g92.png";
+import g93 from "../assets/galeri/g93.png";
+import g94 from "../assets/galeri/g94.png";
+
+import g101 from "../assets/galeri/g101.png";
+import g102 from "../assets/galeri/g102.png";
+import g103 from "../assets/galeri/g103.png";
+import g104 from "../assets/galeri/g104.png";
+
+import g111 from "../assets/galeri/g111.png";
+import g112 from "../assets/galeri/g112.png";
+import g113 from "../assets/galeri/g113.png";
+import g114 from "../assets/galeri/g114.png";
+
 import UTA_Catalog from "../assets/UTA_Catalog.pdf";
+import UTA_CorporateProfilePresentation from "../assets/UTA_CorporateProfilePresentation.pdf";
+import UTA_GroupCompanies from "../assets/UTA_SportsEquipments.pdf";
+
+import UTA_Patent from "../assets/UTA_Patent.pdf";
+import UTA_1000 from "../assets/UTA_1000.pdf";
+import UTA_Faaliyet from "../assets/UTA_Faaliyet.pdf";
 
 import makspor from "../assets/grup/makspor.png";
 import stroy from "../assets/grup/stroy.png";
@@ -68,9 +106,13 @@ export const languageTr = {
   eng: "ENGLISH",
   ekEng: "SWITCH TO ",
 };
-export const katalog = {
-  Catalog: UTA_Catalog,
-};
+export const katalog = [
+  UTA_Catalog,
+  UTA_CorporateProfilePresentation,
+  UTA_GroupCompanies,
+];
+export const patent = [UTA_Patent, UTA_1000, UTA_Faaliyet];
+
 export const toggleLanguageTr = {
   trDark: "KARANLIK MOD",
   trLight: "AYDINLIK MOD",
@@ -123,6 +165,16 @@ export const projectsTr = {
       titledesc: "Babarab Stadyumu - Aşkabat",
       desc: "Aşkabat ta bulunan Babarab stadyumunun A'dan Z'ye tüm ekipman ve malzemesinin tedariki.",
       img: c6,
+    },
+    {
+      titledesc: "Canlı Hayvan, Et Tedarik ve Nakliyesi:",
+      desc: "UTA GROUP, konusunda uzman çalışanları ile Almanya, Avusturya, Macaristan ve Slovakya gibi ülkelerden süt inekleri ve etlik boğalar olmak üzere binlerce hayvanın tedarik ve nakliyesini başarı ile yapmıştır.",
+      img: c7,
+    },
+    {
+      titledesc: "Gemi Ekipmanları Tedarik ve Servis Botu İmalatı:",
+      desc: "UTA GROUP, Sarıyer de ve Tuzlada sahibi oldukları imalathanelerde üretmiş oldukları özel dizayn edilmiş HDPE, Alüminyum ve ahşap tekneleri Türkiye ve bir çok farklı ülkeye satışını yapmaktadır. Bu konuda aile firması olarak bir çok farklı model ve boyutta özel dizayn tekne imalatı hizmetlerinde Türkiye'nin öncü firmaları arasında yer almaktadır.",
+      img: c8,
     },
   ],
 };
@@ -223,6 +275,7 @@ export const galeryTr = {
       img1: g21,
       img2: g22,
       img3: g23,
+      img4: g24,
     },
     {
       id: 2,
@@ -230,6 +283,7 @@ export const galeryTr = {
       img1: g31,
       img2: g32,
       img3: g33,
+      img4: g34,
     },
     {
       id: 3,
@@ -237,6 +291,7 @@ export const galeryTr = {
       img1: g41,
       img2: g42,
       img3: g43,
+      img4: g44,
     },
     {
       id: 4,
@@ -244,6 +299,7 @@ export const galeryTr = {
       img1: g51,
       img2: g52,
       img3: g53,
+      img4: g54,
     },
     {
       id: 5,
@@ -251,6 +307,7 @@ export const galeryTr = {
       img1: g61,
       img2: g62,
       img3: g63,
+      img4: g64,
     },
     {
       id: 6,
@@ -258,6 +315,7 @@ export const galeryTr = {
       img1: g71,
       img2: g72,
       img3: g73,
+      img4: g74,
     },
     {
       id: 7,
@@ -265,17 +323,39 @@ export const galeryTr = {
       img1: g81,
       img2: g82,
       img3: g83,
+      img4: g84,
     },
     {
       id: 8,
       title: "Ahal Kreş",
       img1: g91,
+      img2: g92,
+      img3: g93,
+      img4: g94,
     },
     {
       id: 9,
       title: "Relizan - Algeria Çikolata Fabrikası İnşaatı",
       img1: g11,
       img2: g12,
+      img3: g13,
+      img4: g14,
+    },
+    {
+      id: 10,
+      title: "Canlı Hayvan, Et Tedarik ve Nakliyesi",
+      img1: g101,
+      img2: g102,
+      img3: g103,
+      img4: g104,
+    },
+    {
+      id: 11,
+      title: "Ashgabat Spor Toplumu Projesi",
+      img1: g111,
+      img2: g112,
+      img3: g113,
+      img4: g114,
     },
   ],
 };
