@@ -11,7 +11,7 @@ export const NavlinkMenu = ({ isMenuOpen, toggleMenu }) => {
     { to: "/about", labelEn: "About", labelTr: "Hakkımızda" },
     { to: "/ourservices", labelEn: "Our Services", labelTr: "Hizmetlerimiz" },
     { to: "/projects", labelEn: "Projects", labelTr: "Projeler" },
-    { to: "/catalogs", labelEn: "Catalogs", labelTr: "Kataloglar" },
+    // { to: "/catalogs", labelEn: "Catalogs", labelTr: "Kataloglar" },
     { to: "/galery", labelEn: "Gallery", labelTr: "Galeri" },
     { to: "/contact", labelEn: "Contact", labelTr: "İletişim" },
   ];
@@ -19,14 +19,14 @@ export const NavlinkMenu = ({ isMenuOpen, toggleMenu }) => {
   return (
     <nav className="lg:mt-3">
       <ul
-        className={`lg:flex flex-col lg:flex-row justify-center gap-5 font-bold py-8 px-3 space-y-4 lg:space-y-0 ${
+        className={`lg:flex flex-col lg:flex-row justify-center text-normal gap-2 font-bold py-8  space-y-4 lg:space-y-0 ${
           isMenuOpen ? "block" : "hidden"
         } lg:block`}
       >
         {navItems.map((item) => (
           <li key={item.to}>
             <NavLink
-              className="block hover:bg-[#f7c75e] px-4 py-2 rounded-md"
+              className="block justify-center text-center hover:bg-[#f7c75e] px-4 py-2 rounded-md"
               to={item.to}
               onClick={() => toggleMenu()}
             >

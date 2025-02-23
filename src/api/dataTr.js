@@ -10,6 +10,12 @@ import c6 from "../assets/projects/c6.png";
 import ser1 from "../assets/services/ser1.png";
 import ser2 from "../assets/services/ser2.png";
 import ser3 from "../assets/services/ser3.png";
+import ser4 from "../assets/services/ser4.png";
+import ser5 from "../assets/services/ser5.png";
+import ser6 from "../assets/services/ser6.png";
+import ser7 from "../assets/services/ser7.png";
+import ser8 from "../assets/services/ser8.png";
+import ser9 from "../assets/services/ser9.png";
 
 import g11 from "../assets/galeri/g11.png";
 import g12 from "../assets/galeri/g12.png";
@@ -143,39 +149,34 @@ export const ourServicesTr = {
       img: ser3,
     },
     {
-      titledesc: "Askeri Ekipman ve Malzemelerin Tedarik ve Nakliyesi:",
-      desc: "UTA GROUP, güçlü uluslararası bağlantıları ve stratejik anlaşmaları sayesinde, yüksek güvenlik gereksinimlerine sahip askeri mühimmat ve ekipman tedarikinde öncü bir rol oynamaktadır. Türkiye ve dünya çapındaki geniş ağımız, en zorlu talepleri bile hızla ve güvenli bir şekilde karşılayacak kapasiteye sahiptir. Özellikle, askeri tekstil ürünleri konusunda özelleşmiş üretim çözümleri sunarak, müşterilerimizin ihtiyaçlarına tamamen uyumlu ürünler sunuyoruz. Askeri yelekler, kasklar, botlar ve giysiler gibi ürünler, uluslararası standartlara tam uyumlu olup, gerekli tüm sertifikalara sahip şekilde tedarik edilmektedir. Bu sayede, hem güvenliği hem de kaliteyi en üst seviyede tutarak, müşterilerimizin her türlü askeri ekipman ihtiyacını eksiksiz şekilde karşılamaktayız.",
-      img: ser3,
+      titledesc: "Lojistik ve Depolama Hizmetleri:",
+      desc: "UTA GROUP, dünya çapında geniş bir ortak ağıyla, her türlü nakliye ve depolama ihtiyacınızı güvenle karşılamaktadır. Müşterilerimizin taleplerine özel olarak, en hızlı, güvenli ve ekonomik taşımacılık çözümlerini sunarak, ürünlerinizi doğru lokasyona eksiksiz ve zamanında ulaştırıyoruz. Deneyimli ekibimiz, nakliye süreçleri boyunca sürekli bilgilendirme yaparak, evrak ve sertifika temininde de tam destek sunmaktadır. Global ölçekteki operasyonel gücümüzle, her adımda size güven ve hız kazandırmayı hedefliyoruz. Özellikle patlayıcı sınıfına giren ürünler ve nakliyesi zor ürünlerde sahip olduğumuz tecrübe ile müşterilerimize hizmet veriyoruz.",
+      img: ser4,
     },
     {
       titledesc: "Çelik Konstrüksiyon ve Yapılar:",
       desc: "UTA GGROUP, anlaşmalı olduğu üreticiler ile müşterilerine özel projeler çalışarak en ekonomik ve hızlı çözümleri kullanmaktadır. Bu bağlamda çelik fabrika yapıları, stadyum çatıları ve tribünleri, köprüler gibi ağır yapıların yanında müşteri taleplerine istinaden modüler yapılarda da hizmet vermektedir. Yapmış olduğu işlerde ki kalite bunun en iyi göstergesidir.",
-      img: ser3,
+      img: ser5,
     },
     {
       titledesc: "Canlı Hayvan, Et Tedarik ve Nakliyesi:",
       desc: "UTA GROUP, güçlü uluslararası ağı ve tecrübeli ekibiyle, canlı hayvan ve taze et tedarikinde sektörde fark yaratmaktadır. Avrupa ve Güney Amerika’daki güvenilir ortaklarımızla birlikte, büyükbaş hayvan tedarikinden, et nakliyesine kadar her aşamayı mükemmel bir şekilde yönetiyoruz. Binlerce canlı hayvanın taşınmasında uluslararası sağlık ve güvenlik standartlarına tam uyum sağlıyoruz. Müşterilerimizin talepleri doğrultusunda, büyükbaş hayvan çiftliklerinin kurulumu ve süt ürünleri fabrikalarının inşası konusunda da sektör lideri referanslarımız mevcuttur. Tüm süreçlerde yüksek kalite, hız ve güvenlik sunarak, bu alandaki en zorlu talepleri bile başarıyla karşılıyoruz.",
-      img: ser3,
+      img: ser6,
     },
     {
       titledesc: "Genel İnşaat İşleri ve Taşeronluk Hizmetleri:",
       desc: "UTA GROUP, global inşaat projelerindeki referans ve tecrübeleri ile bir çok farklı sektöre de inşaat ve taşeronluk hizmeti vermektedir. Başta Türkmenistan, Cezayir ve Türkiye olmak üzere, dünyanın dört bir yanında üstlendiği ana yüklenicilik ve taşeronluk hizmetleriyle dikkat çekmektedir. Deneyimli ekip ve güvenilir iş ortaklarıyla, her projede mükemmeliyeti hedefleyen UTA GROUP, inşaat sektöründe sağlam adımlarla ilerlemektedir. Spor sahaları, kreşler, çikolata fabrikaları, soğuk hava depoları, arıtma tesisleri ve süt ürünleri fabrikaları gibi farklı alanlarda üstlendiği projeler, UTA GROUP' un kalite ve güvenilirliğini gözler önüne sermektedir. Her aşamada müşteri memnuniyetini ön planda tutarak, projelerin zamanında, bütçeye uygun ve yüksek kaliteyle tamamlanmasını sağlamaktadır.",
-      img: ser3,
+      img: ser7,
     },
     {
       titledesc: "Hotel, Restoran ve Kafe Malzeme Tedariki:",
       desc: "UTA GROUP, otel, restoran ve kafe sektörlerinde lider tedarikçi olma vizyonuyla, her türlü malzeme ihtiyacınızı yüksek kaliteli ürünlerle karşılamaktadır. Konusunda uzman ekibimizle, otel tekstil ürünlerinden, mutfak ekipmanlarına, şezlonglardan personel kıyafetlerine kadar geniş bir ürün yelpazesi sunuyoruz. Yeni projeler için ise, özellikle özel tasarım dolaplar, masalar, koltuklar, perdeler ve benzeri ekipmanların teminini de sağlıyoruz. Proje bazlı çözümlerle, ihtiyaçlarınıza tam uyum sağlayacak, hem ekonomik hem de şık seçenekler sunarak otel, restoran ve kafelerinizi en yüksek standartlara taşımayı hedefliyoruz.",
-      img: ser3,
+      img: ser8,
     },
     {
       titledesc: "Gemi Ekipmanları Tedarik ve Servis Botu İmalatı:",
       desc: "Altı nesildir sektördeki liderliğini sürdüren aile şirketimizle, müşterilerimize gemi ekipmanları ve tekne imalatı alanında yenilikçi, güvenilir ve ekonomik çözümler sunuyoruz. HDPE servis botları, pilot botları, acente botları, ahşap yatlar ve alüminyum tekneler gibi çeşitli deniz araçlarını yüksek kalite standartlarında üretiyor ve bakımını yapıyoruz. Üretim süreçlerimizle paralel olarak, gemi ve petrol platformları için ekipman ve malzeme tedarik hizmeti de sunuyoruz. Ayrıca, 30 yılı aşkın tecrübemizle, gemilerin her türlü yedek parça ve ekipman ihtiyaçlarını en hızlı ve ekonomik şekilde karşılayarak sektördeki güçlü yerimizi sağlamlaştırıyoruz. Ayrıca bünyesinde ki tecrübeli çalışanları ile gemilere yük survey işlemleri ve gemi survey işlemleri konusunda da hizmet vermekteyiz.",
-      img: ser3,
-    },
-    {
-      titledesc: "Lojistik ve Depolama Hizmetleri:",
-      desc: "UTA GROUP, dünya çapında geniş bir ortak ağıyla, her türlü nakliye ve depolama ihtiyacınızı güvenle karşılamaktadır. Müşterilerimizin taleplerine özel olarak, en hızlı, güvenli ve ekonomik taşımacılık çözümlerini sunarak, ürünlerinizi doğru lokasyona eksiksiz ve zamanında ulaştırıyoruz. Deneyimli ekibimiz, nakliye süreçleri boyunca sürekli bilgilendirme yaparak, evrak ve sertifika temininde de tam destek sunmaktadır. Global ölçekteki operasyonel gücümüzle, her adımda size güven ve hız kazandırmayı hedefliyoruz. Özellikle patlayıcı sınıfına giren ürünler ve nakliyesi zor ürünlerde sahip olduğumuz tecrübe ile müşterilerimize hizmet veriyoruz.",
-      img: ser3,
+      img: ser9,
     },
   ],
 };

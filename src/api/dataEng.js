@@ -10,6 +10,12 @@ import c6 from "../assets/projects/c6.png";
 import ser1 from "../assets/services/ser1.png";
 import ser2 from "../assets/services/ser2.png";
 import ser3 from "../assets/services/ser3.png";
+import ser4 from "../assets/services/ser4.png";
+import ser5 from "../assets/services/ser5.png";
+import ser6 from "../assets/services/ser6.png";
+import ser7 from "../assets/services/ser7.png";
+import ser8 from "../assets/services/ser8.png";
+import ser9 from "../assets/services/ser9.png";
 
 import g11 from "../assets/galeri/g11.png";
 import g12 from "../assets/galeri/g12.png";
@@ -104,8 +110,7 @@ export const ourServicesEng = {
   description: [
     {
       titledesc: "General Material Supply",
-      desc1:
-        "UTA GROUP provides a single-source supply for all needs through its extensive connections and distributorships, offering project-based flexibility across various products and sectors. Our company, which has strong references in global supply chains, offers customized services in many different sectors, including construction materials, steel structures, industrial products, military defense equipment, furniture, various types and models of doors, paint and insulation materials, drywall and plaster, hotel and restaurant equipment, ceramics and marble, textiles, sports fields and equipment, ship spare parts and equipment, food, and live animals. By offering project-based customized solutions tailored to each customer's needs, we manage complex supply and logistics processes seamlessly.",
+      desc: "UTA GROUP provides a single-source supply for all needs through its extensive connections and distributorships, offering project-based flexibility across various products and sectors. Our company, which has strong references in global supply chains, offers customized services in many different sectors, including construction materials, steel structures, industrial products, military defense equipment, furniture, various types and models of doors, paint and insulation materials, drywall and plaster, hotel and restaurant equipment, ceramics and marble, textiles, sports fields and equipment, ship spare parts and equipment, food, and live animals. By offering project-based customized solutions tailored to each customer's needs, we manage complex supply and logistics processes seamlessly.",
       img: ser1,
     },
     {
@@ -122,34 +127,35 @@ export const ourServicesEng = {
       img: ser3,
     },
     {
+      titledesc: "Logistics and Storage Services:",
+      desc: "UTA GROUP, with a wide network of partners worldwide, safely meets all your transportation and storage needs. We provide the fastest, safest, and most economical transportation solutions tailored to our customers' requests, ensuring that your products reach the correct location completely and on time. Our experienced team continuously informs throughout the transportation processes and offers full support in document and certificate procurement. With our operational strength on a global scale, we aim to provide you with confidence and speed at every step. We serve our customers, especially with our experience in handling explosive-class products and difficult-to-transport items.",
+      img: ser4,
+    },
+    {
       titledesc: "Steel Structures and Buildings:",
       desc: "UTA GROUP utilizes the most economical and rapid solutions by working on custom projects with its partnered manufacturers. In this context, in addition to heavy structures such as steel factory buildings, stadium roofs and stands, and bridges, we also provide services in modular constructions based on customer demands. The quality of our work is the best indicator of this.",
-      img: ser3,
+      img: ser5,
     },
     {
       titledesc: "Supply and Transportation of Live Animals and Meat:",
       desc: "UTA GROUP makes a difference in the supply of live animals and fresh meat with its strong international network and experienced team. Together with our reliable partners in Europe and South America, we manage every stage from cattle supply to meat transportation perfectly. We ensure full compliance with international health and safety standards in the transportation of thousands of live animals. Based on our customers' demands, we also have industry-leading references for the establishment of cattle farms and the construction of dairy processing plants. By offering high quality, speed, and safety in all processes, we successfully meet even the most challenging demands in this field.",
-      img: ser3,
+      img: ser6,
     },
     {
       titledesc: "General Construction Works and Subcontracting Services:",
       desc: "UTA GROUP provides construction and subcontracting services to many different sectors with its references and experience in global construction projects. It stands out for its main contracting and subcontracting services undertaken around the world, particularly in Turkmenistan, Algeria, and Turkey. With an experienced team and reliable business partners, UTA GROUP aims for excellence in every project and is making solid progress in the construction industry. Projects it has undertaken in various fields, such as sports fields, nurseries, chocolate factories, cold storage facilities, treatment plants, and dairy processing plants, showcase UTA GROUP's quality and reliability. By prioritizing customer satisfaction at every stage, it ensures that projects are completed on time, within budget, and with high quality.",
-      img: ser3,
+      img: ser7,
     },
     {
       titledesc: "Supply of Hotel, Restaurant, and Cafe Materials:",
       desc: "UTA GROUP meets all your material needs with high-quality products, driven by the vision of being a leading supplier in the hotel, restaurant, and cafe sectors. With our expert team, we offer a wide range of products, from hotel textile items to kitchen equipment, and from sun loungers to staff uniforms. For new projects, we also provide specially designed cabinets, tables, sofas, curtains, and similar equipment. With project-based solutions, we aim to elevate your hotels, restaurants, and cafes to the highest standards by offering options that are both economical and stylish, fully aligned with your needs.",
-      img: ser3,
+      img: ser8,
     },
+
     {
       titledesc: "Supply of Ship Equipment and Manufacturing of Service Boats:",
       desc: "With our family company, which has maintained its leadership in the industry for six generations, we offer innovative, reliable, and economical solutions to our customers in the fields of ship equipment and boat manufacturing. We produce and maintain a variety of marine vessels, such as HDPE service boats, pilot boats, agent boats, wooden yachts, and aluminum boats, adhering to high-quality standards. In parallel with our production processes, we also provide equipment and material supply services for ships and oil platforms. Additionally, with over 30 years of experience, we strengthen our strong position in the industry by meeting all spare parts and equipment needs of ships in the fastest and most economical way. Furthermore, with our experienced staff, we also provide services for cargo surveying and ship surveying operations.",
-      img: ser3,
-    },
-    {
-      titledesc: "Logistics and Storage Services:",
-      desc: "UTA GROUP, with a wide network of partners worldwide, safely meets all your transportation and storage needs. We provide the fastest, safest, and most economical transportation solutions tailored to our customers' requests, ensuring that your products reach the correct location completely and on time. Our experienced team continuously informs throughout the transportation processes and offers full support in document and certificate procurement. With our operational strength on a global scale, we aim to provide you with confidence and speed at every step. We serve our customers, especially with our experience in handling explosive-class products and difficult-to-transport items.",
-      img: ser3,
+      img: ser9,
     },
   ],
 };

@@ -7,7 +7,7 @@ const Home = () => {
   const { language } = useContext(UserContext);
   return (
     <div>
-      <div className="flex flex-col justify-center text-center gap-5 mt-10">
+      <div className="flex flex-col justify-center text-center gap-5 mt-5">
         <h1 className="text-3xl font-bold">
           {language === TURKCE
             ? "Your Local Office in Turkey:"
@@ -19,7 +19,7 @@ const Home = () => {
             : "İşini Bilen Bir Ekip ile Güvenli, Şeffaf ve Tam Destek Her Adımda Yanınızdayız!"}
         </h4>
       </div>
-      <div className="my-15 flex flex-col ">
+      <div className="my-5 flex flex-col ">
         <div className="flex-grow">
           <HomeCarousel />
         </div>

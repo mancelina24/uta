@@ -21,7 +21,7 @@ const Header = () => {
   return (
     <header className="w-full">
       <div>
-        <div className="flex flex-col lg:flex-row justify-between items-center px-4 lg:px-8 py-4">
+        <div className="flex flex-col lg:flex-row justify-between items-center px-4 lg:px-8 py-4 gap-2">
           <div className="flex justify-between items-center w-full lg:w-auto">
             <img
               src={logo || "/placeholder.svg"}
@@ -32,8 +32,15 @@ const Header = () => {
               {isMenuOpen ? <FaTimes /> : <FaBars />}
             </button>
           </div>
-          <div className="flex items-center mt-4 lg:mt-0">
-            <div className="flex items-center mr-4">
+          <div
+            className={`lg:flex ${
+              isMenuOpen ? "block" : "hidden"
+            } w-full lg:w-auto justify-center`}
+          >
+            <NavlinkMenu isMenuOpen={isMenuOpen} toggleMenu={toggleMenu} />
+          </div>
+          <div className="flex md:flex-col justfiy-center items-center mt-4 lg:mt-0">
+            <div className="flex items-center mr-4 md:mr-0">
               <Switch
                 checked={darkMode}
                 onChange={toggleTheme}
@@ -57,7 +64,7 @@ const Header = () => {
               />
               <label className="ml-2 text-xs">{themeName}</label>
             </div>
-            <span className="font-bold mx-2">|</span>
+            <span className="font-bold mx-2 md:hidden">|</span>
             <div>
               <label onClick={languageChange} className="cursor-pointer">
                 <span className="text-[#f7c75e] text-xs font-bold">
@@ -68,13 +75,6 @@ const Header = () => {
               </label>
             </div>
           </div>
-        </div>
-        <div
-          className={`lg:flex ${
-            isMenuOpen ? "block" : "hidden"
-          } w-full lg:w-auto justify-center`}
-        >
-          <NavlinkMenu isMenuOpen={isMenuOpen} toggleMenu={toggleMenu} />
         </div>
       </div>
     </header>

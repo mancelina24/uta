@@ -27,7 +27,7 @@ const footer = () => {
                 UTA GROUP COMPANIES
               </h3>
             </div>
-            <h4 className="text-xl font-bold">
+            <h4 className="text-xl font-bold text-start">
               {language === TURKCE ? addressEng.office : addressTr.office}
             </h4>
             <div className="flex flex-row gap-5">

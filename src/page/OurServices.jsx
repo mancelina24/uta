@@ -2,7 +2,7 @@ import React, { useContext } from "react";
 import { UserContext } from "../contexts/UserContext";
 
 import { ourServicesEng } from "../api/dataEng";
-import { ourServicesTr, TURKCE } from "../api/dataTr";
+import { ourServicesTr, TURKCE, katalog } from "../api/dataTr";
 
 import Card from "react-bootstrap/Card";
 
@@ -71,6 +71,17 @@ const OurServices = () => {
                 </div>
               </div>
             ))}
+          </div>
+        </div>
+        <div className="w-[35%] flex flex-col justify-center items-center">
+          <div>
+            <a
+              href={katalog.Catalog}
+              download="UTA_Catalog.pdf"
+              className="text-black dark:text-[#f7c75e]  hover:text-[#f7c75e] underline text-2xl items-center font-bold"
+            >
+              {language === TURKCE ? "UTA Catalog" : "UTA Katalog"}
+            </a>
           </div>
         </div>
       </div>
