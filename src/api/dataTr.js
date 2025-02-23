@@ -309,43 +309,31 @@ export const catalogs = [
   {
     id: 1,
     title: "Uta Katalog",
-    image:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-02-23%20003614-iRipmoCidBQBVmapKCttyVU4xP2IFs.png",
     pdfUrl: UTA_Catalog,
   },
   {
     id: 2,
     title: "Hotel Room Equipments",
-    image:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-02-23%20003614-iRipmoCidBQBVmapKCttyVU4xP2IFs.png",
     pdfUrl: UTA_Catalog,
   },
   {
     id: 3,
     title: "H&R Textile",
-    image:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-02-23%20003614-iRipmoCidBQBVmapKCttyVU4xP2IFs.png",
     pdfUrl: UTA_Catalog,
   },
   {
     id: 4,
     title: "H&R Cleaning Equipments",
-    image:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-02-23%20003614-iRipmoCidBQBVmapKCttyVU4xP2IFs.png",
     pdfUrl: UTA_Catalog,
   },
   {
     id: 5,
     title: "Cafe & Bar",
-    image:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-02-23%20003614-iRipmoCidBQBVmapKCttyVU4xP2IFs.png",
     pdfUrl: UTA_Catalog,
   },
   {
     id: 6,
     title: "Kitchen",
-    image:
-      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Ekran%20g%C3%B6r%C3%BCnt%C3%BCs%C3%BC%202025-02-23%20003614-iRipmoCidBQBVmapKCttyVU4xP2IFs.png",
     pdfUrl: UTA_Catalog,
   },
 ];
