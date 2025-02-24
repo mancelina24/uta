@@ -1,77 +1,95 @@
-import logo from "../assets/header/logo.jpg";
-import c1 from "../assets/projects/c1.png";
-import c2 from "../assets/projects/c2.png";
-import c3 from "../assets/projects/c3.png";
-import c4 from "../assets/projects/c4.png";
-import c5 from "../assets/projects/c5.png";
-import c6 from "../assets/projects/c6.png";
-import c7 from "../assets/projects/c7.png";
-import c8 from "../assets/projects/c8.png";
+import logo from "../../public/assets/header/logo.jpg";
 
-import ser1 from "../assets/services/ser1.png";
-import ser2 from "../assets/services/ser2.png";
-import ser3 from "../assets/services/ser3.png";
-import ser4 from "../assets/services/ser4.png";
-import ser5 from "../assets/services/ser5.png";
-import ser6 from "../assets/services/ser6.png";
-import ser7 from "../assets/services/ser7.png";
-import ser8 from "../assets/services/ser8.png";
-import ser9 from "../assets/services/ser9.png";
+import c1 from "../../public/assets/projects/c1.png";
+import c2 from "../../public/assets/projects/c2.png";
+import c3 from "../../public/assets/projects/c3.png";
+import c4 from "../../public/assets/projects/c4.png";
+import c5 from "../../public/assets/projects/c5.png";
+import c6 from "../../public/assets/projects/c6.png";
+import c7 from "../../public/assets/projects/c7.png";
+import c8 from "../../public/assets/projects/c8.png";
 
-import g11 from "../assets/galeri/g11.png";
-import g12 from "../assets/galeri/g12.png";
-import g13 from "../assets/galeri/g13.png";
-import g14 from "../assets/galeri/g14.png";
+import ser1 from "../../public/assets/services/ser1.png";
+import ser2 from "../../public/assets/services/ser2.png";
+import ser3 from "../../public/assets/services/ser3.png";
+import ser4 from "../../public/assets/services/ser4.png";
+import ser5 from "../../public/assets/services/ser5.png";
+import ser6 from "../../public/assets/services/ser6.png";
+import ser7 from "../../public/assets/services/ser7.png";
+import ser8 from "../../public/assets/services/ser8.png";
+import ser9 from "../../public/assets/services/ser9.png";
 
-import g21 from "../assets/galeri/g21.png";
-import g22 from "../assets/galeri/g22.png";
-import g23 from "../assets/galeri/g23.png";
-import g24 from "../assets/galeri/g24.png";
+import g11 from "../../public/assets/galeri/g11.png";
+import g12 from "../../public/assets/galeri/g12.png";
+import g13 from "../../public/assets/galeri/g13.png";
+import g14 from "../../public/assets/galeri/g14.png";
 
-import g31 from "../assets/galeri/g31.png";
-import g32 from "../assets/galeri/g32.png";
-import g33 from "../assets/galeri/g33.png";
-import g34 from "../assets/galeri/g34.png";
+import g21 from "../../public/assets/galeri/g21.png";
+import g22 from "../../public/assets/galeri/g22.png";
+import g23 from "../../public/assets/galeri/g23.png";
+import g24 from "../../public/assets/galeri/g24.png";
 
-import g41 from "../assets/galeri/g41.png";
-import g42 from "../assets/galeri/g42.png";
-import g43 from "../assets/galeri/g43.png";
-import g44 from "../assets/galeri/g44.png";
+import g31 from "../../public/assets/galeri/g31.png";
+import g32 from "../../public/assets/galeri/g32.png";
+import g33 from "../../public/assets/galeri/g33.png";
+import g34 from "../../public/assets/galeri/g34.png";
 
-import g51 from "../assets/galeri/g51.png";
-import g52 from "../assets/galeri/g52.png";
-import g53 from "../assets/galeri/g53.png";
-import g54 from "../assets/galeri/g54.png";
+import g41 from "../../public/assets/galeri/g41.png";
+import g42 from "../../public/assets/galeri/g42.png";
+import g43 from "../../public/assets/galeri/g43.png";
+import g44 from "../../public/assets/galeri/g44.png";
 
-import g61 from "../assets/galeri/g61.png";
-import g62 from "../assets/galeri/g62.png";
-import g63 from "../assets/galeri/g63.png";
-import g64 from "../assets/galeri/g64.png";
+import g51 from "../../public/assets/galeri/g51.png";
+import g52 from "../../public/assets/galeri/g52.png";
+import g53 from "../../public/assets/galeri/g53.png";
+import g54 from "../../public/assets/galeri/g54.png";
 
-import g71 from "../assets/galeri/g71.png";
-import g72 from "../assets/galeri/g72.png";
-import g73 from "../assets/galeri/g73.png";
-import g74 from "../assets/galeri/g74.png";
+import g61 from "../../public/assets/galeri/g61.png";
+import g62 from "../../public/assets/galeri/g62.png";
+import g63 from "../../public/assets/galeri/g63.png";
+import g64 from "../../public/assets/galeri/g64.png";
 
-import g81 from "../assets/galeri/g81.png";
-import g82 from "../assets/galeri/g82.png";
-import g83 from "../assets/galeri/g83.png";
-import g84 from "../assets/galeri/g84.png";
+import g71 from "../../public/assets/galeri/g71.png";
+import g72 from "../../public/assets/galeri/g72.png";
+import g73 from "../../public/assets/galeri/g73.png";
+import g74 from "../../public/assets/galeri/g74.png";
 
-import g91 from "../assets/galeri/g91.png";
-import g92 from "../assets/galeri/g92.png";
-import g93 from "../assets/galeri/g93.png";
-import g94 from "../assets/galeri/g94.png";
+import g81 from "../../public/assets/galeri/g81.png";
+import g82 from "../../public/assets/galeri/g82.png";
+import g83 from "../../public/assets/galeri/g83.png";
+import g84 from "../../public/assets/galeri/g84.png";
 
-import g101 from "../assets/galeri/g101.png";
-import g102 from "../assets/galeri/g102.png";
-import g103 from "../assets/galeri/g103.png";
-import g104 from "../assets/galeri/g104.png";
+import g91 from "../../public/assets/galeri/g91.png";
+import g92 from "../../public/assets/galeri/g92.png";
+import g93 from "../../public/assets/galeri/g93.png";
+import g94 from "../../public/assets/galeri/g94.png";
 
-import g111 from "../assets/galeri/g111.png";
-import g112 from "../assets/galeri/g112.png";
-import g113 from "../assets/galeri/g113.png";
-import g114 from "../assets/galeri/g114.png";
+import g101 from "../../public/assets/galeri/g101.png";
+import g102 from "../../public/assets/galeri/g102.png";
+import g103 from "../../public/assets/galeri/g103.png";
+import g104 from "../../public/assets/galeri/g104.png";
+
+import g111 from "../../public/assets/galeri/g111.png";
+import g112 from "../../public/assets/galeri/g112.png";
+import g113 from "../../public/assets/galeri/g113.png";
+import g114 from "../../public/assets/galeri/g114.png";
+
+import makspor from "../../public/assets/grup/makspor.png";
+import stroy from "../../public/assets/grup/stroy.png";
+import uta_energy from "../../public/assets/grup/uta_energy.png";
+import uta_foregn_trade1 from "../../public/assets/grup/uta_foregn_trade1.png";
+import uta_technologies1 from "../../public/assets/grup/uta_technologies1.png";
+import uta_transport1 from "../../public/assets/grup/uta_transport1.png";
+import uta_yapi1 from "../../public/assets/grup/uta_yapi1.png";
+import uta from "../../public/assets/grup/uta.png";
+
+import sly1 from "../../public/assets/slayt/sly1.png";
+import sly2 from "../../public/assets/slayt/sly2.png";
+import sly3 from "../../public/assets/slayt/sly3.png";
+import sly4 from "../../public/assets/slayt/sly4.png";
+import sly5 from "../../public/assets/slayt/sly5.png";
+import sly6 from "../../public/assets/slayt/sly6.png";
+import sly7 from "../../public/assets/slayt/sly7.png";
 
 export const ENGLISH = "english";
 

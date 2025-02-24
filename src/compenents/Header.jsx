@@ -2,8 +2,8 @@ import { useContext, useState } from "react";
 import { UserContext } from "../contexts/UserContext.jsx";
 import { languageEng } from "../api/dataEng.js";
 import { TURKCE, languageTr } from "../api/dataTr.js";
-import Switch from "@mui/material/Switch";
-import logo from "../assets/header/logo.jpg";
+// import Switch from "@mui/material/Switch";
+import logo from "../../public/assets/header/logo.jpg";
 import { NavlinkMenu } from "./NavlinkMenu.jsx";
 import { FaBars, FaTimes } from "react-icons/fa";
 
