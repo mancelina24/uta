@@ -24,7 +24,7 @@ const HomeCarousel = () => {
   }, []);
   return (
     <div className="flex justify-center mb-5 items-center">
-      <div className="relative  w-[65%] h-auto overflow-hidden">
+      <div className="relative  w-[65%] 2xl:w-[35%] h-auto overflow-hidden">
         <div
           className="flex transition-transform duration-700"
           style={{ transform: `translateX(-${currentIndex * 100}%)` }}
