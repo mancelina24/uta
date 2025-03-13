@@ -18,7 +18,7 @@ import { addressEng } from "../api/dataEng";
 const footer = () => {
   const { language, darkMode } = useContext(UserContext);
   return (
-    <footer className="flex flex-col justify-center content-end item-center w-full ">
+    <footer className="flex flex-col justify-center content-end item-center w-full  bg-gray-300 pt-5">
       <div className="flex-grow ">
         <div className="flex flex-col md:flex-row gap-y-10 justify-center items-center md:justify-between ">
           <div className=" flex flex-col justify-center text-center md:text-start md:justify-start  md:ml-10">

@@ -19,7 +19,7 @@ export const NavlinkMenu = ({ isMenuOpen, toggleMenu }) => {
   return (
     <nav className="lg:mt-3">
       <ul
-        className={`lg:flex flex-col lg:flex-row justify-center text-normal gap-2 font-bold py-8  space-y-4 lg:space-y-0 ${
+        className={`lg:flex flex-col lg:flex-row justify-center text-normal  font-bold py-8  space-y-4 lg:space-y-0 ${
           isMenuOpen ? "block" : "hidden"
         } lg:block`}
       >
