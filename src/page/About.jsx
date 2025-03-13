@@ -23,11 +23,11 @@ const About = () => {
     setOpenTitle((prevTitle) => (prevTitle === title ? null : title));
   };
 
-  const textColor = darkMode ? "text-gray-300" : "text-gray-700";
-  const headingColor = darkMode ? "text-white" : "text-black";
+  const textColor = darkMode ? "text-gray-700" : "text-gray-700";
+  const headingColor = darkMode ? "text-black" : "text-black";
 
   return (
-    <div className="flex flex-col mt-10 mb-15">
+    <div className="flex flex-col mt-5 ">
       <div>
         <h4
           className=" text-3xl my-10 md:text-5xl leading-[58.09px] tracking-[1%] font-medium text-center "
@@ -209,8 +209,8 @@ const About = () => {
       </section>
 
       {/* Download Links Section */}
-      <section className="bg-gray-100 dark:bg-gray-700 py-8">
-        <div className="flex flex-row flex-wrap gap-8 justify-center items-center mb-15 mt-15">
+      <section className="bg-gray-100 dark:bg-gray-700 py-3">
+        <div className="flex flex-row flex-wrap gap-8 justify-center items-center mb-5 mt-5">
           {/* Catalog Link */}
           <div className="flex flex-col items-center justify-center">
             <a

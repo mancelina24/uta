@@ -28,7 +28,7 @@ const OurServices = () => {
       <div className="flex flex-col mt-10">
         <div>
           <h4
-            className=" text-3xl my-10 md:text-5xl leading-[58.09px] tracking-[1%] font-medium text-center "
+            className=" text-3xl my-2 md:text-5xl leading-[58.09px] tracking-[1%] font-medium text-center "
             style={{ fontFamily: "Inter, sans-serif" }}
           >
             {language === TURKCE ? "Our Services" : "Hizmetlerimiz"}
@@ -74,7 +74,7 @@ const OurServices = () => {
             ))}
           </div>
         </div>
-        <div className="flex flex-row flex-wrap gap-8 justify-center items-center mb-15 mt-15 dark:bg-gray-800 py-8">
+        <div className="flex flex-row flex-wrap gap-8 justify-center items-center mb-8 dark:bg-gray-800 py-5">
           {/* Catalog Link */}
           <div className="flex flex-col items-center justify-center">
             <a

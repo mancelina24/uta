@@ -42,7 +42,7 @@ export default function UserContextProvider({ children }) {
   };
 
   const languageClass = language === TURKCE ? "lang-turkish" : "lang-english";
-  const darkModeClass = darkMode ? "dark" : "";
+  const darkModeClass = darkMode ? "light" : "light";
 
   useEffect(() => {
     setThemeName(updateThemeName(darkMode, language));
